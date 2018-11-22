@@ -50,21 +50,46 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public IActionResult Details(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var ad = await _context.Ad
-                .FirstOrDefaultAsync(m => m.ID == id);
+            var ad = _context.Ad
+                .Include(el => el.Pokemon)
+                .Include(el => el.Nature)
+                .Include(el => el.Move1)
+                .Include(el => el.Move2)
+                .Include(el => el.Move3)
+                .Include(el => el.Move4)
+                .FirstOrDefault(m => m.ID == id);
+
             if (ad == null)
             {
                 return NotFound();
             }
 
-            return View(ad);
+            return View(new AdDetailsViewModel()
+            {
+                Atk = ad.Atk,
+                Def = ad.Def,
+                SpeDef = ad.SpeDef,
+                SpeAtk = ad.SpeAtk,
+                Hp = ad.Hp,
+                Level = ad.Level,
+                Move1 = ad.Move1.Name,
+                Move2 = ad.Move2.Name,
+                Move3 = ad.Move3.Name,
+                Move4 = ad.Move4.Name,
+                Nature = ad.Nature.Name,
+                Pokemon = ad.Pokemon.Name,
+                ReleaseDate = ad.ReleaseDate,
+                Shiny = ad.Shiny,
+                Speed = ad.Speed,
+                ID = ad.ID
+            });
         }
 
         // GET: Ads/Create
@@ -114,19 +139,47 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public IActionResult Edit(int? id)
         {
             if (id == null)
             {
                 return NotFound();
             }
 
-            var ad = await _context.Ad.FindAsync(id);
+            var ad = _context.Ad
+                .Include(el => el.Pokemon)
+                .Include(el => el.Nature)
+                .Include(el => el.Move1)
+                .Include(el => el.Move2)
+                .Include(el => el.Move3)
+                .Include(el => el.Move4)
+                .SingleOrDefault(m => m.ID == id);
+
             if (ad == null)
             {
                 return NotFound();
             }
-            return View(ad);
+            return View(new AdEditViewModel()
+            {
+                Atk = ad.Atk,
+                Def = ad.Def,
+                SpeDef = ad.SpeDef,
+                SpeAtk = ad.SpeAtk,
+                Hp = ad.Hp,
+                Level = ad.Level,
+                Move1 = ad.Move1.ID,
+                Move2 = ad.Move2.ID,
+                Move3 = ad.Move3.ID,
+                Move4 = ad.Move4.ID,
+                PokemonNature = ad.Nature.ID,
+                PokemonId = ad.Pokemon.ID,
+                Shiny = ad.Shiny,
+                Speed = ad.Speed,
+                ID = ad.ID,
+                PokemonMoves = _context.PokemonMove.OrderBy(x => x.Name).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList(),
+                PokemonNatures = _context.PokemonNature.OrderBy(x => x.Name).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList(),
+                Pokemons = _context.Pokemon.OrderBy(x => x.OrderNumber).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList()
+            });
         }
 
         // POST: Ads/Edit/5
@@ -134,7 +187,7 @@ namespace PokeTradeCenter.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,ReleaseDate,Atk,SpeAtk,Def,SpeDef,Speed,Hp,Level,Shiny")] Ad ad)
+        public async Task<IActionResult> Edit(int id, AdEditViewModel ad)
         {
             if (id != ad.ID)
             {
@@ -145,7 +198,24 @@ namespace PokeTradeCenter.Controllers
             {
                 try
                 {
-                    _context.Update(ad);
+                    _context.Update(new Ad()
+                    {
+                        Atk = ad.Atk,
+                        Def = ad.Def,
+                        SpeDef = ad.SpeDef,
+                        SpeAtk = ad.SpeAtk,
+                        Hp = ad.Hp,
+                        Level = ad.Level,
+                        Move1 = _context.PokemonMove.First(x => x.ID == ad.Move1),
+                        Move2 = _context.PokemonMove.First(x => x.ID == ad.Move2),
+                        Move3 = _context.PokemonMove.First(x => x.ID == ad.Move3),
+                        Move4 = _context.PokemonMove.First(x => x.ID == ad.Move4),
+                        Nature = _context.PokemonNature.First(x => x.ID == ad.PokemonNature),
+                        Pokemon = _context.Pokemon.First(x => x.ID == ad.PokemonId),
+                        Shiny = ad.Shiny,
+                        Speed = ad.Speed,
+                        ID = ad.ID
+                    });
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)

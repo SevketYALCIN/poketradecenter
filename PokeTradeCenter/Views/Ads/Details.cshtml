@@ -1,4 +1,4 @@
-﻿@model PokeTradeCenter.Models.Ad
+﻿@model PokeTradeCenter.ViewModels.Ads.AdDetailsViewModel
 
 @{
     ViewData["Title"] = "Details";
@@ -11,10 +11,40 @@
     <hr />
     <dl class="dl-horizontal">
         <dt>
-            @Html.DisplayNameFor(model => model.ReleaseDate)
+            @Html.DisplayNameFor(model => model.Pokemon)
         </dt>
         <dd>
-            @Html.DisplayFor(model => model.ReleaseDate)
+            @Html.DisplayFor(model => model.Pokemon)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Nature)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Nature)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Move1)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Move1)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Move2)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Move2)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Move3)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Move3)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Move4)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Move4)
         </dd>
         <dt>
             @Html.DisplayNameFor(model => model.Atk)
@@ -63,6 +93,12 @@
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Shiny)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.ReleaseDate)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.ReleaseDate)
         </dd>
     </dl>
 </div>
