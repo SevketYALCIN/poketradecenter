@@ -1,10 +1,10 @@
-﻿@model IEnumerable<PokeTradeCenter.Models.Ad>
+﻿@model PokeTradeCenter.ViewModels.Ads.AdListingViewModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h2>Index</h2>
+<h2>Ads</h2>
 
 <p>
     <a asp-action="Create">Create New</a>
@@ -13,40 +13,52 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.ReleaseDate)
+                @Html.DisplayNameFor(model => model.Ads.First().Pokemon)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Atk)
+                @Html.DisplayNameFor(model => model.Ads.First().Nature)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SpeAtk)
+                @Html.DisplayNameFor(model => model.Ads.First().Level)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Def)
+                @Html.DisplayNameFor(model => model.Ads.First().Atk)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.SpeDef)
+                @Html.DisplayNameFor(model => model.Ads.First().SpeAtk)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Speed)
+                @Html.DisplayNameFor(model => model.Ads.First().Def)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Hp)
+                @Html.DisplayNameFor(model => model.Ads.First().SpeDef)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Level)
+                @Html.DisplayNameFor(model => model.Ads.First().Speed)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Shiny)
+                @Html.DisplayNameFor(model => model.Ads.First().Hp)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ads.First().Shiny)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ads.First().ReleaseDate)
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
+@foreach (var item in Model.Ads) {
+        <tr onclick="window.location.href='@Url.Action("Details", "Ads", new { ID = item.ID })'">
             <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
+                @Html.DisplayFor(modelItem => item.Pokemon)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nature)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Level)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Atk)
@@ -67,17 +79,23 @@
                 @Html.DisplayFor(modelItem => item.Hp)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Level)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Shiny)
             </td>
             <td>
+                @Html.DisplayFor(modelItem => item.ReleaseDate)
+            </td>
+            @*<td>
                 <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
                 <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
                 <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
+            </td>*@
         </tr>
 }
     </tbody>
 </table>
+
+<style>
+    td {
+        text-transform: capitalize;
+    }
+</style>

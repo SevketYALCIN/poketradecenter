@@ -20,9 +20,33 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
-            return View(await _context.Ad.ToListAsync());
+            var ads = _context.Ad.Select(x => new AdListItem()
+            {
+                Atk = x.Atk,
+                Def = x.Def,
+                Hp = x.Hp,
+                Level = x.Level,
+                Move1 = x.Move1.Name,
+                Move2 = x.Move2.Name,
+                Move3 = x.Move3.Name,
+                Move4 = x.Move4.Name,
+                Nature = x.Nature.Name,
+                Pokemon = x.Pokemon.Name,
+                ReleaseDate = x.ReleaseDate,
+                Shiny = x.Shiny,
+                SpeAtk = x.SpeAtk,
+                SpeDef = x.SpeDef,
+                Speed = x.Speed,
+                ID = x.ID
+            }).ToList();
+
+            var adsVM = new AdListingViewModel()
+            {
+                Ads = ads
+            };
+            return View(adsVM);
         }
 
         // GET: Ads/Details/5

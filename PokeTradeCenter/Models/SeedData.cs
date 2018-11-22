@@ -19,1067 +19,1067 @@ namespace PokeTradeCenter.Models
                       new Pokemon
                       {
                           OrderNumber = 1,
-                          Name = "bulbasaur",
+                          Name = "Bulbasaur",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 2,
-                          Name = "ivysaur",
+                          Name = "Ivysaur",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 3,
 
-                          Name = "venusaur",
+                          Name = "Venusaur",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 4,
 
-                          Name = "charmander",
+                          Name = "Charmander",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 5,
 
-                          Name = "charmeleon",
+                          Name = "Charmeleon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 6,
 
-                          Name = "charizard",
+                          Name = "Charizard",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 7,
 
-                          Name = "squirtle",
+                          Name = "Squirtle",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 8,
 
-                          Name = "wartortle",
+                          Name = "Wartortle",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 9,
 
-                          Name = "blastoise",
+                          Name = "Blastoise",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 10,
 
-                          Name = "caterpie",
+                          Name = "Caterpie",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 11,
 
-                          Name = "metapod",
+                          Name = "Metapod",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 12,
 
-                          Name = "butterfree",
+                          Name = "Butterfree",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 13,
 
-                          Name = "weedle",
+                          Name = "Weedle",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 14,
 
-                          Name = "kakuna",
+                          Name = "Kakuna",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 15,
 
-                          Name = "beedrill",
+                          Name = "Beedrill",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 16,
 
-                          Name = "pidgey",
+                          Name = "Pidgey",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 17,
 
-                          Name = "pidgeotto",
+                          Name = "Pidgeotto",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 18,
 
-                          Name = "pidgeot",
+                          Name = "Pidgeot",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 19,
 
-                          Name = "rattata",
+                          Name = "Rattata",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 20,
 
-                          Name = "raticate",
+                          Name = "Raticate",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 21,
 
-                          Name = "spearow",
+                          Name = "Spearow",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 22,
 
-                          Name = "fearow",
+                          Name = "Fearow",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 23,
 
-                          Name = "ekans",
+                          Name = "Ekans",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 24,
 
-                          Name = "arbok",
+                          Name = "Arbok",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 25,
 
-                          Name = "pikachu",
+                          Name = "Pikachu",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 26,
 
-                          Name = "raichu",
+                          Name = "Raichu",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 27,
 
-                          Name = "sandshrew",
+                          Name = "Sandshrew",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 28,
 
-                          Name = "sandslash",
+                          Name = "Sandslash",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 29,
 
-                          Name = "nidoran-f",
+                          Name = "Nidoran-f",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 30,
 
-                          Name = "nidorina",
+                          Name = "Nidorina",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 31,
 
-                          Name = "nidoqueen",
+                          Name = "Nidoqueen",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 32,
 
-                          Name = "nidoran-m",
+                          Name = "Nidoran-m",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 33,
 
-                          Name = "nidorino",
+                          Name = "Nidorino",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 34,
 
-                          Name = "nidoking",
+                          Name = "Nidoking",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 35,
 
-                          Name = "clefairy",
+                          Name = "Clefairy",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 36,
 
-                          Name = "clefable",
+                          Name = "Clefable",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 37,
 
-                          Name = "vulpix",
+                          Name = "Vulpix",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 38,
 
-                          Name = "ninetales",
+                          Name = "Ninetales",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 39,
 
-                          Name = "jigglypuff",
+                          Name = "Jigglypuff",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 40,
 
-                          Name = "wigglytuff",
+                          Name = "Wigglytuff",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 41,
 
-                          Name = "zubat",
+                          Name = "Zubat",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 42,
 
-                          Name = "golbat",
+                          Name = "Golbat",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 43,
 
-                          Name = "oddish",
+                          Name = "Oddish",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 44,
 
-                          Name = "gloom",
+                          Name = "Gloom",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 45,
 
-                          Name = "vileplume",
+                          Name = "Vileplume",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 46,
 
-                          Name = "paras",
+                          Name = "Paras",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 47,
 
-                          Name = "parasect",
+                          Name = "Parasect",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 48,
 
-                          Name = "venonat",
+                          Name = "Venonat",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 49,
 
-                          Name = "venomoth",
+                          Name = "Venomoth",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 50,
 
-                          Name = "diglett",
+                          Name = "Diglett",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 51,
 
-                          Name = "dugtrio",
+                          Name = "Dugtrio",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 52,
 
-                          Name = "meowth",
+                          Name = "Meowth",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 53,
 
-                          Name = "persian",
+                          Name = "Persian",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 54,
 
-                          Name = "psyduck",
+                          Name = "Psyduck",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 55,
 
-                          Name = "golduck",
+                          Name = "Golduck",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 56,
 
-                          Name = "mankey",
+                          Name = "Mankey",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 57,
 
-                          Name = "primeape",
+                          Name = "Primeape",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 58,
 
-                          Name = "growlithe",
+                          Name = "Growlithe",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 59,
 
-                          Name = "arcanine",
+                          Name = "Arcanine",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 60,
 
-                          Name = "poliwag",
+                          Name = "Poliwag",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 61,
 
-                          Name = "poliwhirl",
+                          Name = "Poliwhirl",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 62,
 
-                          Name = "poliwrath",
+                          Name = "Poliwrath",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 63,
 
-                          Name = "abra",
+                          Name = "Abra",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 64,
 
-                          Name = "kadabra",
+                          Name = "Kadabra",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 65,
 
-                          Name = "alakazam",
+                          Name = "Alakazam",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 66,
 
-                          Name = "machop",
+                          Name = "Machop",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 67,
 
-                          Name = "machoke",
+                          Name = "Machoke",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 68,
 
-                          Name = "machamp",
+                          Name = "Machamp",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 69,
 
-                          Name = "bellsprout",
+                          Name = "Bellsprout",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 70,
 
-                          Name = "weepinbell",
+                          Name = "Weepinbell",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 71,
 
-                          Name = "victreebel",
+                          Name = "Victreebel",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 72,
 
-                          Name = "tentacool",
+                          Name = "Tentacool",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 73,
 
-                          Name = "tentacruel",
+                          Name = "Tentacruel",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 74,
 
-                          Name = "geodude",
+                          Name = "Geodude",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 75,
 
-                          Name = "graveler",
+                          Name = "Graveler",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 76,
 
-                          Name = "golem",
+                          Name = "Golem",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 77,
 
-                          Name = "ponyta",
+                          Name = "Ponyta",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 78,
 
-                          Name = "rapidash",
+                          Name = "Rapidash",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 79,
 
-                          Name = "slowpoke",
+                          Name = "Slowpoke",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 80,
 
-                          Name = "slowbro",
+                          Name = "Slowbro",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 81,
 
-                          Name = "magnemite",
+                          Name = "Magnemite",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 82,
 
-                          Name = "magneton",
+                          Name = "Magneton",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 83,
 
-                          Name = "farfetchd",
+                          Name = "Farfetchd",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 84,
 
-                          Name = "doduo",
+                          Name = "Doduo",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 85,
 
-                          Name = "dodrio",
+                          Name = "Dodrio",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 86,
 
-                          Name = "seel",
+                          Name = "Seel",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 87,
 
-                          Name = "dewgong",
+                          Name = "Dewgong",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 88,
 
-                          Name = "grimer",
+                          Name = "Grimer",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 89,
 
-                          Name = "muk",
+                          Name = "Muk",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 90,
 
-                          Name = "shellder",
+                          Name = "Shellder",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 91,
 
-                          Name = "cloyster",
+                          Name = "Cloyster",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 92,
 
-                          Name = "gastly",
+                          Name = "Gastly",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 93,
 
-                          Name = "haunter",
+                          Name = "Haunter",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 94,
 
-                          Name = "gengar",
+                          Name = "Gengar",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 95,
 
-                          Name = "onix",
+                          Name = "Onix",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 96,
 
-                          Name = "drowzee",
+                          Name = "Drowzee",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 97,
 
-                          Name = "hypno",
+                          Name = "Hypno",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 98,
 
-                          Name = "krabby",
+                          Name = "Krabby",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 99,
 
-                          Name = "kingler",
+                          Name = "Kingler",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 100,
 
-                          Name = "voltorb",
+                          Name = "Voltorb",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 101,
 
-                          Name = "electrode",
+                          Name = "Electrode",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 102,
 
-                          Name = "exeggcute",
+                          Name = "Exeggcute",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 103,
 
-                          Name = "exeggutor",
+                          Name = "Exeggutor",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 104,
 
-                          Name = "cubone",
+                          Name = "Cubone",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 105,
 
-                          Name = "marowak",
+                          Name = "Marowak",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 106,
 
-                          Name = "hitmonlee",
+                          Name = "Hitmonlee",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 107,
 
-                          Name = "hitmonchan",
+                          Name = "Hitmonchan",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 108,
 
-                          Name = "lickitung",
+                          Name = "Lickitung",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 109,
 
-                          Name = "koffing",
+                          Name = "Koffing",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 110,
 
-                          Name = "weezing",
+                          Name = "Weezing",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 111,
 
-                          Name = "rhyhorn",
+                          Name = "Rhyhorn",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 112,
 
-                          Name = "rhydon",
+                          Name = "Rhydon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 113,
 
-                          Name = "chansey",
+                          Name = "Chansey",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 114,
 
-                          Name = "tangela",
+                          Name = "Tangela",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 115,
 
-                          Name = "kangaskhan",
+                          Name = "Kangaskhan",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 116,
 
-                          Name = "horsea",
+                          Name = "Horsea",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 117,
 
-                          Name = "seadra",
+                          Name = "Seadra",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 118,
 
-                          Name = "goldeen",
+                          Name = "Goldeen",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 119,
 
-                          Name = "seaking",
+                          Name = "Seaking",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 120,
 
-                          Name = "staryu",
+                          Name = "Staryu",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 121,
 
-                          Name = "starmie",
+                          Name = "Starmie",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 122,
 
-                          Name = "mr-mime",
+                          Name = "Mr-mime",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 123,
 
-                          Name = "scyther",
+                          Name = "Scyther",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 124,
 
-                          Name = "jynx",
+                          Name = "Jynx",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 125,
 
-                          Name = "electabuzz",
+                          Name = "Electabuzz",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 126,
 
-                          Name = "magmar",
+                          Name = "Magmar",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 127,
 
-                          Name = "pinsir",
+                          Name = "Pinsir",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 128,
 
-                          Name = "tauros",
+                          Name = "Tauros",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 129,
 
-                          Name = "magikarp",
+                          Name = "Magikarp",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 130,
 
-                          Name = "gyarados",
+                          Name = "Gyarados",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 131,
 
-                          Name = "lapras",
+                          Name = "Lapras",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 132,
 
-                          Name = "ditto",
+                          Name = "Ditto",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 133,
 
-                          Name = "eevee",
+                          Name = "Eevee",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 134,
 
-                          Name = "vaporeon",
+                          Name = "Vaporeon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 135,
 
-                          Name = "jolteon",
+                          Name = "Jolteon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 136,
 
-                          Name = "flareon",
+                          Name = "Flareon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 137,
 
-                          Name = "porygon",
+                          Name = "Porygon",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 138,
 
-                          Name = "omanyte",
+                          Name = "Omanyte",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 139,
 
-                          Name = "omastar",
+                          Name = "Omastar",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 140,
 
-                          Name = "kabuto",
+                          Name = "Kabuto",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 141,
 
-                          Name = "kabutops",
+                          Name = "Kabutops",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 142,
 
-                          Name = "aerodactyl",
+                          Name = "Aerodactyl",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 143,
 
-                          Name = "snorlax",
+                          Name = "Snorlax",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 144,
 
-                          Name = "articuno",
+                          Name = "Articuno",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 145,
 
-                          Name = "zapdos",
+                          Name = "Zapdos",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 146,
 
-                          Name = "moltres",
+                          Name = "Moltres",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 147,
 
-                          Name = "dratini",
+                          Name = "Dratini",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 148,
 
-                          Name = "dragonair",
+                          Name = "Dragonair",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 149,
 
-                          Name = "dragonite",
+                          Name = "Dragonite",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 150,
 
-                          Name = "mewtwo",
+                          Name = "Mewtwo",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 151,
-                          Name = "mew",
+                          Name = "Mew",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 808,
-                          Name = "meltan",
+                          Name = "Meltan",
                           Generation = 1
                       },
                       new Pokemon
                       {
                           OrderNumber = 809,
-                          Name = "melmetal",
+                          Name = "Melmetal",
                           Generation = 1
                       });
                     #endregion Pokemons
@@ -1197,767 +1197,766 @@ namespace PokeTradeCenter.Models
                 {
                     #region Moves
                     context.PokemonMove.AddRange(
-                    new PokemonMove { Name = "pound" },
-                    new PokemonMove { Name = "karate-chop" },
-                    new PokemonMove { Name = "double-slap" },
-                    new PokemonMove { Name = "comet-punch" },
-                    new PokemonMove { Name = "mega-punch" },
-                    new PokemonMove { Name = "pay-day" },
-                    new PokemonMove { Name = "fire-punch" },
-                    new PokemonMove { Name = "ice-punch" },
-                    new PokemonMove { Name = "thunder-punch" },
-                    new PokemonMove { Name = "scratch" },
-                    new PokemonMove { Name = "vice-grip" },
-                    new PokemonMove { Name = "guillotine" },
-                    new PokemonMove { Name = "razor-wind" },
-                    new PokemonMove { Name = "swords-dance" },
-                    new PokemonMove { Name = "cut" },
-                    new PokemonMove { Name = "gust" },
-                    new PokemonMove { Name = "wing-attack" },
-                    new PokemonMove { Name = "whirlwind" },
-                    new PokemonMove { Name = "fly" },
-                    new PokemonMove { Name = "bind" },
-                    new PokemonMove { Name = "slam" },
-                    new PokemonMove { Name = "vine-whip" },
-                    new PokemonMove { Name = "stomp" },
-                    new PokemonMove { Name = "double-kick" },
-                    new PokemonMove { Name = "mega-kick" },
-                    new PokemonMove { Name = "jump-kick" },
-                    new PokemonMove { Name = "rolling-kick" },
-                    new PokemonMove { Name = "sand-attack" },
-                    new PokemonMove { Name = "headbutt" },
-                    new PokemonMove { Name = "horn-attack" },
-                    new PokemonMove { Name = "fury-attack" },
-                    new PokemonMove { Name = "horn-drill" },
-                    new PokemonMove { Name = "tackle" },
-                    new PokemonMove { Name = "body-slam" },
-                    new PokemonMove { Name = "wrap" },
-                    new PokemonMove { Name = "take-down" },
-                    new PokemonMove { Name = "thrash" },
-                    new PokemonMove { Name = "double-edge" },
-                    new PokemonMove { Name = "tail-whip" },
-                    new PokemonMove { Name = "poison-sting" },
-                    new PokemonMove { Name = "twineedle" },
-                    new PokemonMove { Name = "pin-missile" },
-                    new PokemonMove { Name = "leer" },
-                    new PokemonMove { Name = "bite" },
-                    new PokemonMove { Name = "growl" },
-                    new PokemonMove { Name = "roar" },
-                    new PokemonMove { Name = "sing" },
-                    new PokemonMove { Name = "supersonic" },
-                    new PokemonMove { Name = "sonic-boom" },
-                    new PokemonMove { Name = "disable" },
-                    new PokemonMove { Name = "acid" },
-                    new PokemonMove { Name = "ember" },
-                    new PokemonMove { Name = "flamethrower" },
-                    new PokemonMove { Name = "mist" },
-                    new PokemonMove { Name = "water-gun" },
-                    new PokemonMove { Name = "hydro-pump" },
-                    new PokemonMove { Name = "surf" },
-                    new PokemonMove { Name = "ice-beam" },
-                    new PokemonMove { Name = "blizzard" },
-                    new PokemonMove { Name = "psybeam" },
-                    new PokemonMove { Name = "bubble-beam" },
-                    new PokemonMove { Name = "aurora-beam" },
-                    new PokemonMove { Name = "hyper-beam" },
-                    new PokemonMove { Name = "peck" },
-                    new PokemonMove { Name = "drill-peck" },
-                    new PokemonMove { Name = "submission" },
-                    new PokemonMove { Name = "low-kick" },
-                    new PokemonMove { Name = "counter" },
-                    new PokemonMove { Name = "seismic-toss" },
-                    new PokemonMove { Name = "strength" },
-                    new PokemonMove { Name = "absorb" },
-                    new PokemonMove { Name = "mega-drain" },
-                    new PokemonMove { Name = "leech-seed" },
-                    new PokemonMove { Name = "growth" },
-                    new PokemonMove { Name = "razor-leaf" },
-                    new PokemonMove { Name = "solar-beam" },
-                    new PokemonMove { Name = "poison-powder" },
-                    new PokemonMove { Name = "stun-spore" },
-                    new PokemonMove { Name = "sleep-powder" },
-                    new PokemonMove { Name = "petal-dance" },
-                    new PokemonMove { Name = "string-shot" },
-                    new PokemonMove { Name = "dragon-rage" },
-                    new PokemonMove { Name = "fire-spin" },
-                    new PokemonMove { Name = "thunder-shock" },
-                    new PokemonMove { Name = "thunderbolt" },
-                    new PokemonMove { Name = "thunder-wave" },
-                    new PokemonMove { Name = "thunder" },
-                    new PokemonMove { Name = "rock-throw" },
-                    new PokemonMove { Name = "earthquake" },
-                    new PokemonMove { Name = "fissure" },
-                    new PokemonMove { Name = "dig" },
-                    new PokemonMove { Name = "toxic" },
-                    new PokemonMove { Name = "confusion" },
-                    new PokemonMove { Name = "psychic" },
-                    new PokemonMove { Name = "hypnosis" },
-                    new PokemonMove { Name = "meditate" },
-                    new PokemonMove { Name = "agility" },
-                    new PokemonMove { Name = "quick-attack" },
-                    new PokemonMove { Name = "rage" },
-                    new PokemonMove { Name = "teleport" },
-                    new PokemonMove { Name = "night-shade" },
-                    new PokemonMove { Name = "mimic" },
-                    new PokemonMove { Name = "screech" },
-                    new PokemonMove { Name = "double-team" },
-                    new PokemonMove { Name = "recover" },
-                    new PokemonMove { Name = "harden" },
-                    new PokemonMove { Name = "minimize" },
-                    new PokemonMove { Name = "smokescreen" },
-                    new PokemonMove { Name = "confuse-ray" },
-                    new PokemonMove { Name = "withdraw" },
-                    new PokemonMove { Name = "defense-curl" },
-                    new PokemonMove { Name = "barrier" },
-                    new PokemonMove { Name = "light-screen" },
-                    new PokemonMove { Name = "haze" },
-                    new PokemonMove { Name = "reflect" },
-                    new PokemonMove { Name = "focus-energy" },
-                    new PokemonMove { Name = "bide" },
-                    new PokemonMove { Name = "metronome" },
-                    new PokemonMove { Name = "mirror-move" },
-                    new PokemonMove { Name = "self-destruct" },
-                    new PokemonMove { Name = "egg-bomb" },
-                    new PokemonMove { Name = "lick" },
-                    new PokemonMove { Name = "smog" },
-                    new PokemonMove { Name = "sludge" },
-                    new PokemonMove { Name = "bone-club" },
-                    new PokemonMove { Name = "fire-blast" },
-                    new PokemonMove { Name = "waterfall" },
-                    new PokemonMove { Name = "clamp" },
-                    new PokemonMove { Name = "swift" },
-                    new PokemonMove { Name = "skull-bash" },
-                    new PokemonMove { Name = "spike-cannon" },
-                    new PokemonMove { Name = "constrict" },
-                    new PokemonMove { Name = "amnesia" },
-                    new PokemonMove { Name = "kinesis" },
-                    new PokemonMove { Name = "soft-boiled" },
-                    new PokemonMove { Name = "high-jump-kick" },
-                    new PokemonMove { Name = "glare" },
-                    new PokemonMove { Name = "dream-eater" },
-                    new PokemonMove { Name = "poison-gas" },
-                    new PokemonMove { Name = "barrage" },
-                    new PokemonMove { Name = "leech-life" },
-                    new PokemonMove { Name = "lovely-kiss" },
-                    new PokemonMove { Name = "sky-attack" },
-                    new PokemonMove { Name = "transform" },
-                    new PokemonMove { Name = "bubble" },
-                    new PokemonMove { Name = "dizzy-punch" },
-                    new PokemonMove { Name = "spore" },
-                    new PokemonMove { Name = "flash" },
-                    new PokemonMove { Name = "psywave" },
-                    new PokemonMove { Name = "splash" },
-                    new PokemonMove { Name = "acid-armor" },
-                    new PokemonMove { Name = "crabhammer" },
-                    new PokemonMove { Name = "explosion" },
-                    new PokemonMove { Name = "fury-swipes" },
-                    new PokemonMove { Name = "bonemerang" },
-                    new PokemonMove { Name = "rest" },
-                    new PokemonMove { Name = "rock-slide" },
-                    new PokemonMove { Name = "hyper-fang" },
-                    new PokemonMove { Name = "sharpen" },
-                    new PokemonMove { Name = "conversion" },
-                    new PokemonMove { Name = "tri-attack" },
-                    new PokemonMove { Name = "super-fang" },
-                    new PokemonMove { Name = "slash" },
-                    new PokemonMove { Name = "substitute" },
-                    new PokemonMove { Name = "struggle" },
-                    new PokemonMove { Name = "sketch" },
-                    new PokemonMove { Name = "triple-kick" },
-                    new PokemonMove { Name = "thief" },
-                    new PokemonMove { Name = "spider-web" },
-                    new PokemonMove { Name = "mind-reader" },
-                    new PokemonMove { Name = "nightmare" },
-                    new PokemonMove { Name = "flame-wheel" },
-                    new PokemonMove { Name = "snore" },
-                    new PokemonMove { Name = "curse" },
-                    new PokemonMove { Name = "flail" },
-                    new PokemonMove { Name = "conversion-2" },
-                    new PokemonMove { Name = "aeroblast" },
-                    new PokemonMove { Name = "cotton-spore" },
-                    new PokemonMove { Name = "reversal" },
-                    new PokemonMove { Name = "spite" },
-                    new PokemonMove { Name = "powder-snow" },
-                    new PokemonMove { Name = "protect" },
-                    new PokemonMove { Name = "mach-punch" },
-                    new PokemonMove { Name = "scary-face" },
-                    new PokemonMove { Name = "feint-attack" },
-                    new PokemonMove { Name = "sweet-kiss" },
-                    new PokemonMove { Name = "belly-drum" },
-                    new PokemonMove { Name = "sludge-bomb" },
-                    new PokemonMove { Name = "mud-slap" },
-                    new PokemonMove { Name = "octazooka" },
-                    new PokemonMove { Name = "spikes" },
-                    new PokemonMove { Name = "zap-cannon" },
-                    new PokemonMove { Name = "foresight" },
-                    new PokemonMove { Name = "destiny-bond" },
-                    new PokemonMove { Name = "perish-song" },
-                    new PokemonMove { Name = "icy-wind" },
-                    new PokemonMove { Name = "detect" },
-                    new PokemonMove { Name = "bone-rush" },
-                    new PokemonMove { Name = "lock-on" },
-                    new PokemonMove { Name = "outrage" },
-                    new PokemonMove { Name = "sandstorm" },
-                    new PokemonMove { Name = "giga-drain" },
-                    new PokemonMove { Name = "endure" },
-                    new PokemonMove { Name = "charm" },
-                    new PokemonMove { Name = "rollout" },
-                    new PokemonMove { Name = "false-swipe" },
-                    new PokemonMove { Name = "swagger" },
-                    new PokemonMove { Name = "milk-drink" },
-                    new PokemonMove { Name = "spark" },
-                    new PokemonMove { Name = "fury-cutter" },
-                    new PokemonMove { Name = "steel-wing" },
-                    new PokemonMove { Name = "mean-look" },
-                    new PokemonMove { Name = "attract" },
-                    new PokemonMove { Name = "sleep-talk" },
-                    new PokemonMove { Name = "heal-bell" },
-                    new PokemonMove { Name = "return" },
-                    new PokemonMove { Name = "present" },
-                    new PokemonMove { Name = "frustration" },
-                    new PokemonMove { Name = "safeguard" },
-                    new PokemonMove { Name = "pain-split" },
-                    new PokemonMove { Name = "sacred-fire" },
-                    new PokemonMove { Name = "magnitude" },
-                    new PokemonMove { Name = "dynamic-punch" },
-                    new PokemonMove { Name = "megahorn" },
-                    new PokemonMove { Name = "dragon-breath" },
-                    new PokemonMove { Name = "baton-pass" },
-                    new PokemonMove { Name = "encore" },
-                    new PokemonMove { Name = "pursuit" },
-                    new PokemonMove { Name = "rapid-spin" },
-                    new PokemonMove { Name = "sweet-scent" },
-                    new PokemonMove { Name = "iron-tail" },
-                    new PokemonMove { Name = "metal-claw" },
-                    new PokemonMove { Name = "vital-throw" },
-                    new PokemonMove { Name = "morning-sun" },
-                    new PokemonMove { Name = "synthesis" },
-                    new PokemonMove { Name = "moonlight" },
-                    new PokemonMove { Name = "hidden-power" },
-                    new PokemonMove { Name = "cross-chop" },
-                    new PokemonMove { Name = "twister" },
-                    new PokemonMove { Name = "rain-dance" },
-                    new PokemonMove { Name = "sunny-day" },
-                    new PokemonMove { Name = "crunch" },
-                    new PokemonMove { Name = "mirror-coat" },
-                    new PokemonMove { Name = "psych-up" },
-                    new PokemonMove { Name = "extreme-speed" },
-                    new PokemonMove { Name = "ancient-power" },
-                    new PokemonMove { Name = "shadow-ball" },
-                    new PokemonMove { Name = "future-sight" },
-                    new PokemonMove { Name = "rock-smash" },
-                    new PokemonMove { Name = "whirlpool" },
-                    new PokemonMove { Name = "beat-up" },
-                    new PokemonMove { Name = "fake-out" },
-                    new PokemonMove { Name = "uproar" },
-                    new PokemonMove { Name = "stockpile" },
-                    new PokemonMove { Name = "spit-up" },
-                    new PokemonMove { Name = "swallow" },
-                    new PokemonMove { Name = "heat-wave" },
-                    new PokemonMove { Name = "hail" },
-                    new PokemonMove { Name = "torment" },
-                    new PokemonMove { Name = "flatter" },
-                    new PokemonMove { Name = "will-o-wisp" },
-                    new PokemonMove { Name = "memento" },
-                    new PokemonMove { Name = "facade" },
-                    new PokemonMove { Name = "focus-punch" },
-                    new PokemonMove { Name = "smelling-salts" },
-                    new PokemonMove { Name = "follow-me" },
-                    new PokemonMove { Name = "nature-power" },
-                    new PokemonMove { Name = "charge" },
-                    new PokemonMove { Name = "taunt" },
-                    new PokemonMove { Name = "helping-hand" },
-                    new PokemonMove { Name = "trick" },
-                    new PokemonMove { Name = "role-play" },
-                    new PokemonMove { Name = "wish" },
-                    new PokemonMove { Name = "assist" },
-                    new PokemonMove { Name = "ingrain" },
-                    new PokemonMove { Name = "superpower" },
-                    new PokemonMove { Name = "magic-coat" },
-                    new PokemonMove { Name = "recycle" },
-                    new PokemonMove { Name = "revenge" },
-                    new PokemonMove { Name = "brick-break" },
-                    new PokemonMove { Name = "yawn" },
-                    new PokemonMove { Name = "knock-off" },
-                    new PokemonMove { Name = "endeavor" },
-                    new PokemonMove { Name = "eruption" },
-                    new PokemonMove { Name = "skill-swap" },
-                    new PokemonMove { Name = "imprison" },
-                    new PokemonMove { Name = "refresh" },
-                    new PokemonMove { Name = "grudge" },
-                    new PokemonMove { Name = "snatch" },
-                    new PokemonMove { Name = "secret-power" },
-                    new PokemonMove { Name = "dive" },
-                    new PokemonMove { Name = "arm-thrust" },
-                    new PokemonMove { Name = "camouflage" },
-                    new PokemonMove { Name = "tail-glow" },
-                    new PokemonMove { Name = "luster-purge" },
-                    new PokemonMove { Name = "mist-ball" },
-                    new PokemonMove { Name = "feather-dance" },
-                    new PokemonMove { Name = "teeter-dance" },
-                    new PokemonMove { Name = "blaze-kick" },
-                    new PokemonMove { Name = "mud-sport" },
-                    new PokemonMove { Name = "ice-ball" },
-                    new PokemonMove { Name = "needle-arm" },
-                    new PokemonMove { Name = "slack-off" },
-                    new PokemonMove { Name = "hyper-voice" },
-                    new PokemonMove { Name = "poison-fang" },
-                    new PokemonMove { Name = "crush-claw" },
-                    new PokemonMove { Name = "blast-burn" },
-                    new PokemonMove { Name = "hydro-cannon" },
-                    new PokemonMove { Name = "meteor-mash" },
-                    new PokemonMove { Name = "astonish" },
-                    new PokemonMove { Name = "weather-ball" },
-                    new PokemonMove { Name = "aromatherapy" },
-                    new PokemonMove { Name = "fake-tears" },
-                    new PokemonMove { Name = "air-cutter" },
-                    new PokemonMove { Name = "overheat" },
-                    new PokemonMove { Name = "odor-sleuth" },
-                    new PokemonMove { Name = "rock-tomb" },
-                    new PokemonMove { Name = "silver-wind" },
-                    new PokemonMove { Name = "metal-sound" },
-                    new PokemonMove { Name = "grass-whistle" },
-                    new PokemonMove { Name = "tickle" },
-                    new PokemonMove { Name = "cosmic-power" },
-                    new PokemonMove { Name = "water-spout" },
-                    new PokemonMove { Name = "signal-beam" },
-                    new PokemonMove { Name = "shadow-punch" },
-                    new PokemonMove { Name = "extrasensory" },
-                    new PokemonMove { Name = "sky-uppercut" },
-                    new PokemonMove { Name = "sand-tomb" },
-                    new PokemonMove { Name = "sheer-cold" },
-                    new PokemonMove { Name = "muddy-water" },
-                    new PokemonMove { Name = "bullet-seed" },
-                    new PokemonMove { Name = "aerial-ace" },
-                    new PokemonMove { Name = "icicle-spear" },
-                    new PokemonMove { Name = "iron-defense" },
-                    new PokemonMove { Name = "block" },
-                    new PokemonMove { Name = "howl" },
-                    new PokemonMove { Name = "dragon-claw" },
-                    new PokemonMove { Name = "frenzy-plant" },
-                    new PokemonMove { Name = "bulk-up" },
-                    new PokemonMove { Name = "bounce" },
-                    new PokemonMove { Name = "mud-shot" },
-                    new PokemonMove { Name = "poison-tail" },
-                    new PokemonMove { Name = "covet" },
-                    new PokemonMove { Name = "volt-tackle" },
-                    new PokemonMove { Name = "magical-leaf" },
-                    new PokemonMove { Name = "water-sport" },
-                    new PokemonMove { Name = "calm-mind" },
-                    new PokemonMove { Name = "leaf-blade" },
-                    new PokemonMove { Name = "dragon-dance" },
-                    new PokemonMove { Name = "rock-blast" },
-                    new PokemonMove { Name = "shock-wave" },
-                    new PokemonMove { Name = "water-pulse" },
-                    new PokemonMove { Name = "doom-desire" },
-                    new PokemonMove { Name = "psycho-boost" },
-                    new PokemonMove { Name = "roost" },
-                    new PokemonMove { Name = "gravity" },
-                    new PokemonMove { Name = "miracle-eye" },
-                    new PokemonMove { Name = "wake-up-slap" },
-                    new PokemonMove { Name = "hammer-arm" },
-                    new PokemonMove { Name = "gyro-ball" },
-                    new PokemonMove { Name = "healing-wish" },
-                    new PokemonMove { Name = "brine" },
-                    new PokemonMove { Name = "natural-gift" },
-                    new PokemonMove { Name = "feint" },
-                    new PokemonMove { Name = "pluck" },
-                    new PokemonMove { Name = "tailwind" },
-                    new PokemonMove { Name = "acupressure" },
-                    new PokemonMove { Name = "metal-burst" },
-                    new PokemonMove { Name = "u-turn" },
-                    new PokemonMove { Name = "close-combat" },
-                    new PokemonMove { Name = "payback" },
-                    new PokemonMove { Name = "assurance" },
-                    new PokemonMove { Name = "embargo" },
-                    new PokemonMove { Name = "fling" },
-                    new PokemonMove { Name = "psycho-shift" },
-                    new PokemonMove { Name = "trump-card" },
-                    new PokemonMove { Name = "heal-block" },
-                    new PokemonMove { Name = "wring-out" },
-                    new PokemonMove { Name = "power-trick" },
-                    new PokemonMove { Name = "gastro-acid" },
-                    new PokemonMove { Name = "lucky-chant" },
-                    new PokemonMove { Name = "me-first" },
-                    new PokemonMove { Name = "copycat" },
-                    new PokemonMove { Name = "power-swap" },
-                    new PokemonMove { Name = "guard-swap" },
-                    new PokemonMove { Name = "punishment" },
-                    new PokemonMove { Name = "last-resort" },
-                    new PokemonMove { Name = "worry-seed" },
-                    new PokemonMove { Name = "sucker-punch" },
-                    new PokemonMove { Name = "toxic-spikes" },
-                    new PokemonMove { Name = "heart-swap" },
-                    new PokemonMove { Name = "aqua-ring" },
-                    new PokemonMove { Name = "magnet-rise" },
-                    new PokemonMove { Name = "flare-blitz" },
-                    new PokemonMove { Name = "force-palm" },
-                    new PokemonMove { Name = "aura-sphere" },
-                    new PokemonMove { Name = "rock-polish" },
-                    new PokemonMove { Name = "poison-jab" },
-                    new PokemonMove { Name = "dark-pulse" },
-                    new PokemonMove { Name = "night-slash" },
-                    new PokemonMove { Name = "aqua-tail" },
-                    new PokemonMove { Name = "seed-bomb" },
-                    new PokemonMove { Name = "air-slash" },
-                    new PokemonMove { Name = "x-scissor" },
-                    new PokemonMove { Name = "bug-buzz" },
-                    new PokemonMove { Name = "dragon-pulse" },
-                    new PokemonMove { Name = "dragon-rush" },
-                    new PokemonMove { Name = "power-gem" },
-                    new PokemonMove { Name = "drain-punch" },
-                    new PokemonMove { Name = "vacuum-wave" },
-                    new PokemonMove { Name = "focus-blast" },
-                    new PokemonMove { Name = "energy-ball" },
-                    new PokemonMove { Name = "brave-bird" },
-                    new PokemonMove { Name = "earth-power" },
-                    new PokemonMove { Name = "switcheroo" },
-                    new PokemonMove { Name = "giga-impact" },
-                    new PokemonMove { Name = "nasty-plot" },
-                    new PokemonMove { Name = "bullet-punch" },
-                    new PokemonMove { Name = "avalanche" },
-                    new PokemonMove { Name = "ice-shard" },
-                    new PokemonMove { Name = "shadow-claw" },
-                    new PokemonMove { Name = "thunder-fang" },
-                    new PokemonMove { Name = "ice-fang" },
-                    new PokemonMove { Name = "fire-fang" },
-                    new PokemonMove { Name = "shadow-sneak" },
-                    new PokemonMove { Name = "mud-bomb" },
-                    new PokemonMove { Name = "psycho-cut" },
-                    new PokemonMove { Name = "zen-headbutt" },
-                    new PokemonMove { Name = "mirror-shot" },
-                    new PokemonMove { Name = "flash-cannon" },
-                    new PokemonMove { Name = "rock-climb" },
-                    new PokemonMove { Name = "defog" },
-                    new PokemonMove { Name = "trick-room" },
-                    new PokemonMove { Name = "draco-meteor" },
-                    new PokemonMove { Name = "discharge" },
-                    new PokemonMove { Name = "lava-plume" },
-                    new PokemonMove { Name = "leaf-storm" },
-                    new PokemonMove { Name = "power-whip" },
-                    new PokemonMove { Name = "rock-wrecker" },
-                    new PokemonMove { Name = "cross-poison" },
-                    new PokemonMove { Name = "gunk-shot" },
-                    new PokemonMove { Name = "iron-head" },
-                    new PokemonMove { Name = "magnet-bomb" },
-                    new PokemonMove { Name = "stone-edge" },
-                    new PokemonMove { Name = "captivate" },
-                    new PokemonMove { Name = "stealth-rock" },
-                    new PokemonMove { Name = "grass-knot" },
-                    new PokemonMove { Name = "chatter" },
-                    new PokemonMove { Name = "judgment" },
-                    new PokemonMove { Name = "bug-bite" },
-                    new PokemonMove { Name = "charge-beam" },
-                    new PokemonMove { Name = "wood-hammer" },
-                    new PokemonMove { Name = "aqua-jet" },
-                    new PokemonMove { Name = "attack-order" },
-                    new PokemonMove { Name = "defend-order" },
-                    new PokemonMove { Name = "heal-order" },
-                    new PokemonMove { Name = "head-smash" },
-                    new PokemonMove { Name = "double-hit" },
-                    new PokemonMove { Name = "roar-of-time" },
-                    new PokemonMove { Name = "spacial-rend" },
-                    new PokemonMove { Name = "lunar-dance" },
-                    new PokemonMove { Name = "crush-grip" },
-                    new PokemonMove { Name = "magma-storm" },
-                    new PokemonMove { Name = "dark-void" },
-                    new PokemonMove { Name = "seed-flare" },
-                    new PokemonMove { Name = "ominous-wind" },
-                    new PokemonMove { Name = "shadow-force" },
-                    new PokemonMove { Name = "hone-claws" },
-                    new PokemonMove { Name = "wide-guard" },
-                    new PokemonMove { Name = "guard-split" },
-                    new PokemonMove { Name = "power-split" },
-                    new PokemonMove { Name = "wonder-room" },
-                    new PokemonMove { Name = "psyshock" },
-                    new PokemonMove { Name = "venoshock" },
-                    new PokemonMove { Name = "autotomize" },
-                    new PokemonMove { Name = "rage-powder" },
-                    new PokemonMove { Name = "telekinesis" },
-                    new PokemonMove { Name = "magic-room" },
-                    new PokemonMove { Name = "smack-down" },
-                    new PokemonMove { Name = "storm-throw" },
-                    new PokemonMove { Name = "flame-burst" },
-                    new PokemonMove { Name = "sludge-wave" },
-                    new PokemonMove { Name = "quiver-dance" },
-                    new PokemonMove { Name = "heavy-slam" },
-                    new PokemonMove { Name = "synchronoise" },
-                    new PokemonMove { Name = "electro-ball" },
-                    new PokemonMove { Name = "soak" },
-                    new PokemonMove { Name = "flame-charge" },
-                    new PokemonMove { Name = "coil" },
-                    new PokemonMove { Name = "low-sweep" },
-                    new PokemonMove { Name = "acid-spray" },
-                    new PokemonMove { Name = "foul-play" },
-                    new PokemonMove { Name = "simple-beam" },
-                    new PokemonMove { Name = "entrainment" },
-                    new PokemonMove { Name = "after-you" },
-                    new PokemonMove { Name = "round" },
-                    new PokemonMove { Name = "echoed-voice" },
-                    new PokemonMove { Name = "chip-away" },
-                    new PokemonMove { Name = "clear-smog" },
-                    new PokemonMove { Name = "stored-power" },
-                    new PokemonMove { Name = "quick-guard" },
-                    new PokemonMove { Name = "ally-switch" },
-                    new PokemonMove { Name = "scald" },
-                    new PokemonMove { Name = "shell-smash" },
-                    new PokemonMove { Name = "heal-pulse" },
-                    new PokemonMove { Name = "hex" },
-                    new PokemonMove { Name = "sky-drop" },
-                    new PokemonMove { Name = "shift-gear" },
-                    new PokemonMove { Name = "circle-throw" },
-                    new PokemonMove { Name = "incinerate" },
-                    new PokemonMove { Name = "quash" },
-                    new PokemonMove { Name = "acrobatics" },
-                    new PokemonMove { Name = "reflect-type" },
-                    new PokemonMove { Name = "retaliate" },
-                    new PokemonMove { Name = "final-gambit" },
-                    new PokemonMove { Name = "bestow" },
-                    new PokemonMove { Name = "inferno" },
-                    new PokemonMove { Name = "water-pledge" },
-                    new PokemonMove { Name = "fire-pledge" },
-                    new PokemonMove { Name = "grass-pledge" },
-                    new PokemonMove { Name = "volt-switch" },
-                    new PokemonMove { Name = "struggle-bug" },
-                    new PokemonMove { Name = "bulldoze" },
-                    new PokemonMove { Name = "frost-breath" },
-                    new PokemonMove { Name = "dragon-tail" },
-                    new PokemonMove { Name = "work-up" },
-                    new PokemonMove { Name = "electroweb" },
-                    new PokemonMove { Name = "wild-charge" },
-                    new PokemonMove { Name = "drill-run" },
-                    new PokemonMove { Name = "dual-chop" },
-                    new PokemonMove { Name = "heart-stamp" },
-                    new PokemonMove { Name = "horn-leech" },
-                    new PokemonMove { Name = "sacred-sword" },
-                    new PokemonMove { Name = "razor-shell" },
-                    new PokemonMove { Name = "heat-crash" },
-                    new PokemonMove { Name = "leaf-tornado" },
-                    new PokemonMove { Name = "steamroller" },
-                    new PokemonMove { Name = "cotton-guard" },
-                    new PokemonMove { Name = "night-daze" },
-                    new PokemonMove { Name = "psystrike" },
-                    new PokemonMove { Name = "tail-slap" },
-                    new PokemonMove { Name = "hurricane" },
-                    new PokemonMove { Name = "head-charge" },
-                    new PokemonMove { Name = "gear-grind" },
-                    new PokemonMove { Name = "searing-shot" },
-                    new PokemonMove { Name = "techno-blast" },
-                    new PokemonMove { Name = "relic-song" },
-                    new PokemonMove { Name = "secret-sword" },
-                    new PokemonMove { Name = "glaciate" },
-                    new PokemonMove { Name = "bolt-strike" },
-                    new PokemonMove { Name = "blue-flare" },
-                    new PokemonMove { Name = "fiery-dance" },
-                    new PokemonMove { Name = "freeze-shock" },
-                    new PokemonMove { Name = "ice-burn" },
-                    new PokemonMove { Name = "snarl" },
-                    new PokemonMove { Name = "icicle-crash" },
-                    new PokemonMove { Name = "v-create" },
-                    new PokemonMove { Name = "fusion-flare" },
-                    new PokemonMove { Name = "fusion-bolt" },
-                    new PokemonMove { Name = "flying-press" },
-                    new PokemonMove { Name = "mat-block" },
-                    new PokemonMove { Name = "belch" },
-                    new PokemonMove { Name = "rototiller" },
-                    new PokemonMove { Name = "sticky-web" },
-                    new PokemonMove { Name = "fell-stinger" },
-                    new PokemonMove { Name = "phantom-force" },
-                    new PokemonMove { Name = "trick-or-treat" },
-                    new PokemonMove { Name = "noble-roar" },
-                    new PokemonMove { Name = "ion-deluge" },
-                    new PokemonMove { Name = "parabolic-charge" },
-                    new PokemonMove { Name = "forests-curse" },
-                    new PokemonMove { Name = "petal-blizzard" },
-                    new PokemonMove { Name = "freeze-dry" },
-                    new PokemonMove { Name = "disarming-voice" },
-                    new PokemonMove { Name = "parting-shot" },
-                    new PokemonMove { Name = "topsy-turvy" },
-                    new PokemonMove { Name = "draining-kiss" },
-                    new PokemonMove { Name = "crafty-shield" },
-                    new PokemonMove { Name = "flower-shield" },
-                    new PokemonMove { Name = "grassy-terrain" },
-                    new PokemonMove { Name = "misty-terrain" },
-                    new PokemonMove { Name = "electrify" },
-                    new PokemonMove { Name = "play-rough" },
-                    new PokemonMove { Name = "fairy-wind" },
-                    new PokemonMove { Name = "moonblast" },
-                    new PokemonMove { Name = "boomburst" },
-                    new PokemonMove { Name = "fairy-lock" },
-                    new PokemonMove { Name = "kings-shield" },
-                    new PokemonMove { Name = "play-nice" },
-                    new PokemonMove { Name = "confide" },
-                    new PokemonMove { Name = "diamond-storm" },
-                    new PokemonMove { Name = "steam-eruption" },
-                    new PokemonMove { Name = "hyperspace-hole" },
-                    new PokemonMove { Name = "water-shuriken" },
-                    new PokemonMove { Name = "mystical-fire" },
-                    new PokemonMove { Name = "spiky-shield" },
-                    new PokemonMove { Name = "aromatic-mist" },
-                    new PokemonMove { Name = "eerie-impulse" },
-                    new PokemonMove { Name = "venom-drench" },
-                    new PokemonMove { Name = "powder" },
-                    new PokemonMove { Name = "geomancy" },
-                    new PokemonMove { Name = "magnetic-flux" },
-                    new PokemonMove { Name = "happy-hour" },
-                    new PokemonMove { Name = "electric-terrain" },
-                    new PokemonMove { Name = "dazzling-gleam" },
-                    new PokemonMove { Name = "celebrate" },
-                    new PokemonMove { Name = "hold-hands" },
-                    new PokemonMove { Name = "baby-doll-eyes" },
-                    new PokemonMove { Name = "nuzzle" },
-                    new PokemonMove { Name = "hold-back" },
-                    new PokemonMove { Name = "infestation" },
-                    new PokemonMove { Name = "power-up-punch" },
-                    new PokemonMove { Name = "oblivion-wing" },
-                    new PokemonMove { Name = "thousand-arrows" },
-                    new PokemonMove { Name = "thousand-waves" },
-                    new PokemonMove { Name = "lands-wrath" },
-                    new PokemonMove { Name = "light-of-ruin" },
-                    new PokemonMove { Name = "origin-pulse" },
-                    new PokemonMove { Name = "precipice-blades" },
-                    new PokemonMove { Name = "dragon-ascent" },
-                    new PokemonMove { Name = "hyperspace-fury" },
-                    new PokemonMove { Name = "breakneck-blitz--physical" },
-                    new PokemonMove { Name = "breakneck-blitz--special" },
-                    new PokemonMove { Name = "all-out-pummeling--physical" },
-                    new PokemonMove { Name = "all-out-pummeling--special" },
-                    new PokemonMove { Name = "supersonic-skystrike--physical" },
-                    new PokemonMove { Name = "supersonic-skystrike--special" },
-                    new PokemonMove { Name = "acid-downpour--physical" },
-                    new PokemonMove { Name = "acid-downpour--special" },
-                    new PokemonMove { Name = "tectonic-rage--physical" },
-                    new PokemonMove { Name = "tectonic-rage--special" },
-                    new PokemonMove { Name = "continental-crush--physical" },
-                    new PokemonMove { Name = "continental-crush--special" },
-                    new PokemonMove { Name = "savage-spin-out--physical" },
-                    new PokemonMove { Name = "savage-spin-out--special" },
-                    new PokemonMove { Name = "never-ending-nightmare--physical" },
-                    new PokemonMove { Name = "never-ending-nightmare--special" },
-                    new PokemonMove { Name = "corkscrew-crash--physical" },
-                    new PokemonMove { Name = "corkscrew-crash--special" },
-                    new PokemonMove { Name = "inferno-overdrive--physical" },
-                    new PokemonMove { Name = "inferno-overdrive--special" },
-                    new PokemonMove { Name = "hydro-vortex--physical" },
-                    new PokemonMove { Name = "hydro-vortex--special" },
-                    new PokemonMove { Name = "bloom-doom--physical" },
-                    new PokemonMove { Name = "bloom-doom--special" },
-                    new PokemonMove { Name = "gigavolt-havoc--physical" },
-                    new PokemonMove { Name = "gigavolt-havoc--special" },
-                    new PokemonMove { Name = "shattered-psyche--physical" },
-                    new PokemonMove { Name = "shattered-psyche--special" },
-                    new PokemonMove { Name = "subzero-slammer--physical" },
-                    new PokemonMove { Name = "subzero-slammer--special" },
-                    new PokemonMove { Name = "devastating-drake--physical" },
-                    new PokemonMove { Name = "devastating-drake--special" },
-                    new PokemonMove { Name = "black-hole-eclipse--physical" },
-                    new PokemonMove { Name = "black-hole-eclipse--special" },
-                    new PokemonMove { Name = "twinkle-tackle--physical" },
-                    new PokemonMove { Name = "twinkle-tackle--special" },
-                    new PokemonMove { Name = "catastropika" },
-                    new PokemonMove { Name = "shore-up" },
-                    new PokemonMove { Name = "first-impression" },
-                    new PokemonMove { Name = "baneful-bunker" },
-                    new PokemonMove { Name = "spirit-shackle" },
-                    new PokemonMove { Name = "darkest-lariat" },
-                    new PokemonMove { Name = "sparkling-aria" },
-                    new PokemonMove { Name = "ice-hammer" },
-                    new PokemonMove { Name = "floral-healing" },
-                    new PokemonMove { Name = "high-horsepower" },
-                    new PokemonMove { Name = "strength-sap" },
-                    new PokemonMove { Name = "solar-blade" },
-                    new PokemonMove { Name = "leafage" },
-                    new PokemonMove { Name = "spotlight" },
-                    new PokemonMove { Name = "toxic-thread" },
-                    new PokemonMove { Name = "laser-focus" },
-                    new PokemonMove { Name = "gear-up" },
-                    new PokemonMove { Name = "throat-chop" },
-                    new PokemonMove { Name = "pollen-puff" },
-                    new PokemonMove { Name = "anchor-shot" },
-                    new PokemonMove { Name = "psychic-terrain" },
-                    new PokemonMove { Name = "lunge" },
-                    new PokemonMove { Name = "fire-lash" },
-                    new PokemonMove { Name = "power-trip" },
-                    new PokemonMove { Name = "burn-up" },
-                    new PokemonMove { Name = "speed-swap" },
-                    new PokemonMove { Name = "smart-strike" },
-                    new PokemonMove { Name = "purify" },
-                    new PokemonMove { Name = "revelation-dance" },
-                    new PokemonMove { Name = "core-enforcer" },
-                    new PokemonMove { Name = "trop-kick" },
-                    new PokemonMove { Name = "instruct" },
-                    new PokemonMove { Name = "beak-blast" },
-                    new PokemonMove { Name = "clanging-scales" },
-                    new PokemonMove { Name = "dragon-hammer" },
-                    new PokemonMove { Name = "brutal-swing" },
-                    new PokemonMove { Name = "aurora-veil" },
-                    new PokemonMove { Name = "sinister-arrow-raid" },
-                    new PokemonMove { Name = "malicious-moonsault" },
-                    new PokemonMove { Name = "oceanic-operetta" },
-                    new PokemonMove { Name = "guardian-of-alola" },
-                    new PokemonMove { Name = "soul-stealing-7-star-strike" },
-                    new PokemonMove { Name = "stoked-sparksurfer" },
-                    new PokemonMove { Name = "pulverizing-pancake" },
-                    new PokemonMove { Name = "extreme-evoboost" },
-                    new PokemonMove { Name = "genesis-supernova" },
-                    new PokemonMove { Name = "shell-trap" },
-                    new PokemonMove { Name = "fleur-cannon" },
-                    new PokemonMove { Name = "psychic-fangs" },
-                    new PokemonMove { Name = "stomping-tantrum" },
-                    new PokemonMove { Name = "shadow-bone" },
-                    new PokemonMove { Name = "accelerock" },
-                    new PokemonMove { Name = "liquidation" },
-                    new PokemonMove { Name = "prismatic-laser" },
-                    new PokemonMove { Name = "spectral-thief" },
-                    new PokemonMove { Name = "sunsteel-strike" },
-                    new PokemonMove { Name = "moongeist-beam" },
-                    new PokemonMove { Name = "tearful-look" },
-                    new PokemonMove { Name = "zing-zap" },
-                    new PokemonMove { Name = "natures-madness" },
-                    new PokemonMove { Name = "multi-attack" },
-                    new PokemonMove { Name = "10-000-000-volt-thunderbolt" },
-                    new PokemonMove { Name = "mind-blown" },
-                    new PokemonMove { Name = "plasma-fists" },
-                    new PokemonMove { Name = "photon-geyser" },
-                    new PokemonMove { Name = "light-that-burns-the-sky" },
-                    new PokemonMove { Name = "searing-sunraze-smash" },
-                    new PokemonMove { Name = "menacing-moonraze-maelstrom" },
-                    new PokemonMove { Name = "lets-snuggle-forever" },
-                    new PokemonMove { Name = "splintered-stormshards" },
-                    new PokemonMove { Name = "clangorous-soulblaze" },
-                    new PokemonMove { Name = "shadow-rush" },
-                    new PokemonMove { Name = "shadow-blast" },
-                    new PokemonMove { Name = "shadow-blitz" },
-                    new PokemonMove { Name = "shadow-bolt" },
-                    new PokemonMove { Name = "shadow-break" },
-                    new PokemonMove { Name = "shadow-chill" },
-                    new PokemonMove { Name = "shadow-end" },
-                    new PokemonMove { Name = "shadow-fire" },
-                    new PokemonMove { Name = "shadow-rave" },
-                    new PokemonMove { Name = "shadow-storm" },
-                    new PokemonMove { Name = "shadow-wave" },
-                    new PokemonMove { Name = "shadow-down" },
-                    new PokemonMove { Name = "shadow-half" },
-                    new PokemonMove { Name = "shadow-hold" },
-                    new PokemonMove { Name = "shadow-mist" },
-                    new PokemonMove { Name = "shadow-panic" },
-                    new PokemonMove { Name = "shadow-shed" },
-                    new PokemonMove { Name = "shadow-sky" },
-                    new PokemonMove { Name = "double-iron-bash" },
-                    new PokemonMove { Name = "pika-papow" },
-                    new PokemonMove { Name = "veevee-volley" },
-                    new PokemonMove { Name = "zippy-zap" },
-                    new PokemonMove { Name = "splishy-splash" },
-                    new PokemonMove { Name = "floaty-fall" },
-                    new PokemonMove { Name = "bouncy-bubble" },
-                    new PokemonMove { Name = "buzzy-buzz" },
-                    new PokemonMove { Name = "sizzly-slide" },
-                    new PokemonMove { Name = "glitzy-glow" },
-                    new PokemonMove { Name = "baddy-bad" },
-                    new PokemonMove { Name = "sappy-seed" },
-                    new PokemonMove { Name = "freezy-frost" },
-                    new PokemonMove { Name = "sparkly-swirl" });
-
+                    new PokemonMove { Name = "Pound" },
+                    new PokemonMove { Name = "Karate Chop" },
+                    new PokemonMove { Name = "Double Slap" },
+                    new PokemonMove { Name = "Comet Punch" },
+                    new PokemonMove { Name = "Mega Punch" },
+                    new PokemonMove { Name = "Pay Day" },
+                    new PokemonMove { Name = "Fire Punch" },
+                    new PokemonMove { Name = "Ice Punch" },
+                    new PokemonMove { Name = "Thunder Punch" },
+                    new PokemonMove { Name = "Scratch" },
+                    new PokemonMove { Name = "Vice Grip" },
+                    new PokemonMove { Name = "Guillotine" },
+                    new PokemonMove { Name = "Razor Wind" },
+                    new PokemonMove { Name = "Swords Dance" },
+                    new PokemonMove { Name = "Cut" },
+                    new PokemonMove { Name = "Gust" },
+                    new PokemonMove { Name = "Wing Attack" },
+                    new PokemonMove { Name = "Whirlwind" },
+                    new PokemonMove { Name = "Fly" },
+                    new PokemonMove { Name = "Bind" },
+                    new PokemonMove { Name = "Slam" },
+                    new PokemonMove { Name = "Vine Whip" },
+                    new PokemonMove { Name = "Stomp" },
+                    new PokemonMove { Name = "Double Kick" },
+                    new PokemonMove { Name = "Mega Kick" },
+                    new PokemonMove { Name = "Jump Kick" },
+                    new PokemonMove { Name = "Rolling Kick" },
+                    new PokemonMove { Name = "Sand Attack" },
+                    new PokemonMove { Name = "Headbutt" },
+                    new PokemonMove { Name = "Horn Attack" },
+                    new PokemonMove { Name = "Fury Attack" },
+                    new PokemonMove { Name = "Horn Drill" },
+                    new PokemonMove { Name = "Tackle" },
+                    new PokemonMove { Name = "Body Slam" },
+                    new PokemonMove { Name = "Wrap" },
+                    new PokemonMove { Name = "Take Down" },
+                    new PokemonMove { Name = "Thrash" },
+                    new PokemonMove { Name = "Double Edge" },
+                    new PokemonMove { Name = "Tail Whip" },
+                    new PokemonMove { Name = "Poison Sting" },
+                    new PokemonMove { Name = "Twineedle" },
+                    new PokemonMove { Name = "Pin Missile" },
+                    new PokemonMove { Name = "Leer" },
+                    new PokemonMove { Name = "Bite" },
+                    new PokemonMove { Name = "Growl" },
+                    new PokemonMove { Name = "Roar" },
+                    new PokemonMove { Name = "Sing" },
+                    new PokemonMove { Name = "Supersonic" },
+                    new PokemonMove { Name = "Sonic Boom" },
+                    new PokemonMove { Name = "Disable" },
+                    new PokemonMove { Name = "Acid" },
+                    new PokemonMove { Name = "Ember" },
+                    new PokemonMove { Name = "Flamethrower" },
+                    new PokemonMove { Name = "Mist" },
+                    new PokemonMove { Name = "Water Gun" },
+                    new PokemonMove { Name = "Hydro Pump" },
+                    new PokemonMove { Name = "Surf" },
+                    new PokemonMove { Name = "Ice Beam" },
+                    new PokemonMove { Name = "Blizzard" },
+                    new PokemonMove { Name = "Psybeam" },
+                    new PokemonMove { Name = "Bubble Beam" },
+                    new PokemonMove { Name = "Aurora Beam" },
+                    new PokemonMove { Name = "Hyper Beam" },
+                    new PokemonMove { Name = "Peck" },
+                    new PokemonMove { Name = "Drill Peck" },
+                    new PokemonMove { Name = "Submission" },
+                    new PokemonMove { Name = "Low Kick" },
+                    new PokemonMove { Name = "Counter" },
+                    new PokemonMove { Name = "Seismic Toss" },
+                    new PokemonMove { Name = "Strength" },
+                    new PokemonMove { Name = "Absorb" },
+                    new PokemonMove { Name = "Mega Drain" },
+                    new PokemonMove { Name = "Leech Seed" },
+                    new PokemonMove { Name = "Growth" },
+                    new PokemonMove { Name = "Razor Leaf" },
+                    new PokemonMove { Name = "Solar Beam" },
+                    new PokemonMove { Name = "Poison Powder" },
+                    new PokemonMove { Name = "Stun Spore" },
+                    new PokemonMove { Name = "Sleep Powder" },
+                    new PokemonMove { Name = "Petal Dance" },
+                    new PokemonMove { Name = "String Shot" },
+                    new PokemonMove { Name = "Dragon Rage" },
+                    new PokemonMove { Name = "Fire Spin" },
+                    new PokemonMove { Name = "Thunder Shock" },
+                    new PokemonMove { Name = "Thunderbolt" },
+                    new PokemonMove { Name = "Thunder Wave" },
+                    new PokemonMove { Name = "Thunder" },
+                    new PokemonMove { Name = "Rock Throw" },
+                    new PokemonMove { Name = "Earthquake" },
+                    new PokemonMove { Name = "Fissure" },
+                    new PokemonMove { Name = "Dig" },
+                    new PokemonMove { Name = "Toxic" },
+                    new PokemonMove { Name = "Confusion" },
+                    new PokemonMove { Name = "Psychic" },
+                    new PokemonMove { Name = "Hypnosis" },
+                    new PokemonMove { Name = "Meditate" },
+                    new PokemonMove { Name = "Agility" },
+                    new PokemonMove { Name = "Quick Attack" },
+                    new PokemonMove { Name = "Rage" },
+                    new PokemonMove { Name = "Teleport" },
+                    new PokemonMove { Name = "Night Shade" },
+                    new PokemonMove { Name = "Mimic" },
+                    new PokemonMove { Name = "Screech" },
+                    new PokemonMove { Name = "Double Team" },
+                    new PokemonMove { Name = "Recover" },
+                    new PokemonMove { Name = "Harden" },
+                    new PokemonMove { Name = "Minimize" },
+                    new PokemonMove { Name = "Smokescreen" },
+                    new PokemonMove { Name = "Confuse Ray" },
+                    new PokemonMove { Name = "Withdraw" },
+                    new PokemonMove { Name = "Defense Curl" },
+                    new PokemonMove { Name = "Barrier" },
+                    new PokemonMove { Name = "Light Screen" },
+                    new PokemonMove { Name = "Haze" },
+                    new PokemonMove { Name = "Reflect" },
+                    new PokemonMove { Name = "Focus Energy" },
+                    new PokemonMove { Name = "Bide" },
+                    new PokemonMove { Name = "Metronome" },
+                    new PokemonMove { Name = "Mirror Move" },
+                    new PokemonMove { Name = "Self Destruct" },
+                    new PokemonMove { Name = "Egg Bomb" },
+                    new PokemonMove { Name = "Lick" },
+                    new PokemonMove { Name = "Smog" },
+                    new PokemonMove { Name = "Sludge" },
+                    new PokemonMove { Name = "Bone Club" },
+                    new PokemonMove { Name = "Fire Blast" },
+                    new PokemonMove { Name = "Waterfall" },
+                    new PokemonMove { Name = "Clamp" },
+                    new PokemonMove { Name = "Swift" },
+                    new PokemonMove { Name = "Skull Bash" },
+                    new PokemonMove { Name = "Spike Cannon" },
+                    new PokemonMove { Name = "Constrict" },
+                    new PokemonMove { Name = "Amnesia" },
+                    new PokemonMove { Name = "Kinesis" },
+                    new PokemonMove { Name = "Soft Boiled" },
+                    new PokemonMove { Name = "High Jump Kick" },
+                    new PokemonMove { Name = "Glare" },
+                    new PokemonMove { Name = "Dream Eater" },
+                    new PokemonMove { Name = "Poison Gas" },
+                    new PokemonMove { Name = "Barrage" },
+                    new PokemonMove { Name = "Leech Life" },
+                    new PokemonMove { Name = "Lovely Kiss" },
+                    new PokemonMove { Name = "Sky Attack" },
+                    new PokemonMove { Name = "Transform" },
+                    new PokemonMove { Name = "Bubble" },
+                    new PokemonMove { Name = "Dizzy Punch" },
+                    new PokemonMove { Name = "Spore" },
+                    new PokemonMove { Name = "Flash" },
+                    new PokemonMove { Name = "Psywave" },
+                    new PokemonMove { Name = "Splash" },
+                    new PokemonMove { Name = "Acid Armor" },
+                    new PokemonMove { Name = "Crabhammer" },
+                    new PokemonMove { Name = "Explosion" },
+                    new PokemonMove { Name = "Fury Swipes" },
+                    new PokemonMove { Name = "Bonemerang" },
+                    new PokemonMove { Name = "Rest" },
+                    new PokemonMove { Name = "Rock Slide" },
+                    new PokemonMove { Name = "Hyper Fang" },
+                    new PokemonMove { Name = "Sharpen" },
+                    new PokemonMove { Name = "Conversion" },
+                    new PokemonMove { Name = "Tri Attack" },
+                    new PokemonMove { Name = "Super Fang" },
+                    new PokemonMove { Name = "Slash" },
+                    new PokemonMove { Name = "Substitute" },
+                    new PokemonMove { Name = "Struggle" },
+                    new PokemonMove { Name = "Sketch" },
+                    new PokemonMove { Name = "Triple Kick" },
+                    new PokemonMove { Name = "Thief" },
+                    new PokemonMove { Name = "Spider Web" },
+                    new PokemonMove { Name = "Mind Reader" },
+                    new PokemonMove { Name = "Nightmare" },
+                    new PokemonMove { Name = "Flame Wheel" },
+                    new PokemonMove { Name = "Snore" },
+                    new PokemonMove { Name = "Curse" },
+                    new PokemonMove { Name = "Flail" },
+                    new PokemonMove { Name = "Conversion 2" },
+                    new PokemonMove { Name = "Aeroblast" },
+                    new PokemonMove { Name = "Cotton Spore" },
+                    new PokemonMove { Name = "Reversal" },
+                    new PokemonMove { Name = "Spite" },
+                    new PokemonMove { Name = "Powder Snow" },
+                    new PokemonMove { Name = "Protect" },
+                    new PokemonMove { Name = "Mach Punch" },
+                    new PokemonMove { Name = "Scary Face" },
+                    new PokemonMove { Name = "Feint Attack" },
+                    new PokemonMove { Name = "Sweet Kiss" },
+                    new PokemonMove { Name = "Belly Drum" },
+                    new PokemonMove { Name = "Sludge Bomb" },
+                    new PokemonMove { Name = "Mud Slap" },
+                    new PokemonMove { Name = "Octazooka" },
+                    new PokemonMove { Name = "Spikes" },
+                    new PokemonMove { Name = "Zap Cannon" },
+                    new PokemonMove { Name = "Foresight" },
+                    new PokemonMove { Name = "Destiny Bond" },
+                    new PokemonMove { Name = "Perish Song" },
+                    new PokemonMove { Name = "Icy Wind" },
+                    new PokemonMove { Name = "Detect" },
+                    new PokemonMove { Name = "Bone Rush" },
+                    new PokemonMove { Name = "Lock On" },
+                    new PokemonMove { Name = "Outrage" },
+                    new PokemonMove { Name = "Sandstorm" },
+                    new PokemonMove { Name = "Giga Drain" },
+                    new PokemonMove { Name = "Endure" },
+                    new PokemonMove { Name = "Charm" },
+                    new PokemonMove { Name = "Rollout" },
+                    new PokemonMove { Name = "False Swipe" },
+                    new PokemonMove { Name = "Swagger" },
+                    new PokemonMove { Name = "Milk Drink" },
+                    new PokemonMove { Name = "Spark" },
+                    new PokemonMove { Name = "Fury Cutter" },
+                    new PokemonMove { Name = "Steel Wing" },
+                    new PokemonMove { Name = "Mean Look" },
+                    new PokemonMove { Name = "Attract" },
+                    new PokemonMove { Name = "Sleep Talk" },
+                    new PokemonMove { Name = "Heal Bell" },
+                    new PokemonMove { Name = "Return" },
+                    new PokemonMove { Name = "Present" },
+                    new PokemonMove { Name = "Frustration" },
+                    new PokemonMove { Name = "Safeguard" },
+                    new PokemonMove { Name = "Pain Split" },
+                    new PokemonMove { Name = "Sacred Fire" },
+                    new PokemonMove { Name = "Magnitude" },
+                    new PokemonMove { Name = "Dynamic Punch" },
+                    new PokemonMove { Name = "Megahorn" },
+                    new PokemonMove { Name = "Dragon Breath" },
+                    new PokemonMove { Name = "Baton Pass" },
+                    new PokemonMove { Name = "Encore" },
+                    new PokemonMove { Name = "Pursuit" },
+                    new PokemonMove { Name = "Rapid Spin" },
+                    new PokemonMove { Name = "Sweet Scent" },
+                    new PokemonMove { Name = "Iron Tail" },
+                    new PokemonMove { Name = "Metal Claw" },
+                    new PokemonMove { Name = "Vital Throw" },
+                    new PokemonMove { Name = "Morning Sun" },
+                    new PokemonMove { Name = "Synthesis" },
+                    new PokemonMove { Name = "Moonlight" },
+                    new PokemonMove { Name = "Hidden Power" },
+                    new PokemonMove { Name = "Cross Chop" },
+                    new PokemonMove { Name = "Twister" },
+                    new PokemonMove { Name = "Rain Dance" },
+                    new PokemonMove { Name = "Sunny Day" },
+                    new PokemonMove { Name = "Crunch" },
+                    new PokemonMove { Name = "Mirror Coat" },
+                    new PokemonMove { Name = "Psych Up" },
+                    new PokemonMove { Name = "Extreme Speed" },
+                    new PokemonMove { Name = "Ancient Power" },
+                    new PokemonMove { Name = "Shadow Ball" },
+                    new PokemonMove { Name = "Future Sight" },
+                    new PokemonMove { Name = "Rock Smash" },
+                    new PokemonMove { Name = "Whirlpool" },
+                    new PokemonMove { Name = "Beat Up" },
+                    new PokemonMove { Name = "Fake Out" },
+                    new PokemonMove { Name = "Uproar" },
+                    new PokemonMove { Name = "Stockpile" },
+                    new PokemonMove { Name = "Spit Up" },
+                    new PokemonMove { Name = "Swallow" },
+                    new PokemonMove { Name = "Heat Wave" },
+                    new PokemonMove { Name = "Hail" },
+                    new PokemonMove { Name = "Torment" },
+                    new PokemonMove { Name = "Flatter" },
+                    new PokemonMove { Name = "Will O Wisp" },
+                    new PokemonMove { Name = "Memento" },
+                    new PokemonMove { Name = "Facade" },
+                    new PokemonMove { Name = "Focus Punch" },
+                    new PokemonMove { Name = "Smelling Salts" },
+                    new PokemonMove { Name = "Follow Me" },
+                    new PokemonMove { Name = "Nature Power" },
+                    new PokemonMove { Name = "Charge" },
+                    new PokemonMove { Name = "Taunt" },
+                    new PokemonMove { Name = "Helping Hand" },
+                    new PokemonMove { Name = "Trick" },
+                    new PokemonMove { Name = "Role Play" },
+                    new PokemonMove { Name = "Wish" },
+                    new PokemonMove { Name = "Assist" },
+                    new PokemonMove { Name = "Ingrain" },
+                    new PokemonMove { Name = "Superpower" },
+                    new PokemonMove { Name = "Magic Coat" },
+                    new PokemonMove { Name = "Recycle" },
+                    new PokemonMove { Name = "Revenge" },
+                    new PokemonMove { Name = "Brick Break" },
+                    new PokemonMove { Name = "Yawn" },
+                    new PokemonMove { Name = "Knock Off" },
+                    new PokemonMove { Name = "Endeavor" },
+                    new PokemonMove { Name = "Eruption" },
+                    new PokemonMove { Name = "Skill Swap" },
+                    new PokemonMove { Name = "Imprison" },
+                    new PokemonMove { Name = "Refresh" },
+                    new PokemonMove { Name = "Grudge" },
+                    new PokemonMove { Name = "Snatch" },
+                    new PokemonMove { Name = "Secret Power" },
+                    new PokemonMove { Name = "Dive" },
+                    new PokemonMove { Name = "Arm Thrust" },
+                    new PokemonMove { Name = "Camouflage" },
+                    new PokemonMove { Name = "Tail Glow" },
+                    new PokemonMove { Name = "Luster Purge" },
+                    new PokemonMove { Name = "Mist Ball" },
+                    new PokemonMove { Name = "Feather Dance" },
+                    new PokemonMove { Name = "Teeter Dance" },
+                    new PokemonMove { Name = "Blaze Kick" },
+                    new PokemonMove { Name = "Mud Sport" },
+                    new PokemonMove { Name = "Ice Ball" },
+                    new PokemonMove { Name = "Needle Arm" },
+                    new PokemonMove { Name = "Slack Off" },
+                    new PokemonMove { Name = "Hyper Voice" },
+                    new PokemonMove { Name = "Poison Fang" },
+                    new PokemonMove { Name = "Crush Claw" },
+                    new PokemonMove { Name = "Blast Burn" },
+                    new PokemonMove { Name = "Hydro Cannon" },
+                    new PokemonMove { Name = "Meteor Mash" },
+                    new PokemonMove { Name = "Astonish" },
+                    new PokemonMove { Name = "Weather Ball" },
+                    new PokemonMove { Name = "Aromatherapy" },
+                    new PokemonMove { Name = "Fake Tears" },
+                    new PokemonMove { Name = "Air Cutter" },
+                    new PokemonMove { Name = "Overheat" },
+                    new PokemonMove { Name = "Odor Sleuth" },
+                    new PokemonMove { Name = "Rock Tomb" },
+                    new PokemonMove { Name = "Silver Wind" },
+                    new PokemonMove { Name = "Metal Sound" },
+                    new PokemonMove { Name = "Grass Whistle" },
+                    new PokemonMove { Name = "Tickle" },
+                    new PokemonMove { Name = "Cosmic Power" },
+                    new PokemonMove { Name = "Water Spout" },
+                    new PokemonMove { Name = "Signal Beam" },
+                    new PokemonMove { Name = "Shadow Punch" },
+                    new PokemonMove { Name = "Extrasensory" },
+                    new PokemonMove { Name = "Sky Uppercut" },
+                    new PokemonMove { Name = "Sand Tomb" },
+                    new PokemonMove { Name = "Sheer Cold" },
+                    new PokemonMove { Name = "Muddy Water" },
+                    new PokemonMove { Name = "Bullet Seed" },
+                    new PokemonMove { Name = "Aerial Ace" },
+                    new PokemonMove { Name = "Icicle Spear" },
+                    new PokemonMove { Name = "Iron Defense" },
+                    new PokemonMove { Name = "Block" },
+                    new PokemonMove { Name = "Howl" },
+                    new PokemonMove { Name = "Dragon Claw" },
+                    new PokemonMove { Name = "Frenzy Plant" },
+                    new PokemonMove { Name = "Bulk Up" },
+                    new PokemonMove { Name = "Bounce" },
+                    new PokemonMove { Name = "Mud Shot" },
+                    new PokemonMove { Name = "Poison Tail" },
+                    new PokemonMove { Name = "Covet" },
+                    new PokemonMove { Name = "Volt Tackle" },
+                    new PokemonMove { Name = "Magical Leaf" },
+                    new PokemonMove { Name = "Water Sport" },
+                    new PokemonMove { Name = "Calm Mind" },
+                    new PokemonMove { Name = "Leaf Blade" },
+                    new PokemonMove { Name = "Dragon Dance" },
+                    new PokemonMove { Name = "Rock Blast" },
+                    new PokemonMove { Name = "Shock Wave" },
+                    new PokemonMove { Name = "Water Pulse" },
+                    new PokemonMove { Name = "Doom Desire" },
+                    new PokemonMove { Name = "Psycho Boost" },
+                    new PokemonMove { Name = "Roost" },
+                    new PokemonMove { Name = "Gravity" },
+                    new PokemonMove { Name = "Miracle Eye" },
+                    new PokemonMove { Name = "Wake Up Slap" },
+                    new PokemonMove { Name = "Hammer Arm" },
+                    new PokemonMove { Name = "Gyro Ball" },
+                    new PokemonMove { Name = "Healing Wish" },
+                    new PokemonMove { Name = "Brine" },
+                    new PokemonMove { Name = "Natural Gift" },
+                    new PokemonMove { Name = "Feint" },
+                    new PokemonMove { Name = "Pluck" },
+                    new PokemonMove { Name = "Tailwind" },
+                    new PokemonMove { Name = "Acupressure" },
+                    new PokemonMove { Name = "Metal Burst" },
+                    new PokemonMove { Name = "U Turn" },
+                    new PokemonMove { Name = "Close Combat" },
+                    new PokemonMove { Name = "Payback" },
+                    new PokemonMove { Name = "Assurance" },
+                    new PokemonMove { Name = "Embargo" },
+                    new PokemonMove { Name = "Fling" },
+                    new PokemonMove { Name = "Psycho Shift" },
+                    new PokemonMove { Name = "Trump Card" },
+                    new PokemonMove { Name = "Heal Block" },
+                    new PokemonMove { Name = "Wring Out" },
+                    new PokemonMove { Name = "Power Trick" },
+                    new PokemonMove { Name = "Gastro Acid" },
+                    new PokemonMove { Name = "Lucky Chant" },
+                    new PokemonMove { Name = "Me First" },
+                    new PokemonMove { Name = "Copycat" },
+                    new PokemonMove { Name = "Power Swap" },
+                    new PokemonMove { Name = "Guard Swap" },
+                    new PokemonMove { Name = "Punishment" },
+                    new PokemonMove { Name = "Last Resort" },
+                    new PokemonMove { Name = "Worry Seed" },
+                    new PokemonMove { Name = "Sucker Punch" },
+                    new PokemonMove { Name = "Toxic Spikes" },
+                    new PokemonMove { Name = "Heart Swap" },
+                    new PokemonMove { Name = "Aqua Ring" },
+                    new PokemonMove { Name = "Magnet Rise" },
+                    new PokemonMove { Name = "Flare Blitz" },
+                    new PokemonMove { Name = "Force Palm" },
+                    new PokemonMove { Name = "Aura Sphere" },
+                    new PokemonMove { Name = "Rock Polish" },
+                    new PokemonMove { Name = "Poison Jab" },
+                    new PokemonMove { Name = "Dark Pulse" },
+                    new PokemonMove { Name = "Night Slash" },
+                    new PokemonMove { Name = "Aqua Tail" },
+                    new PokemonMove { Name = "Seed Bomb" },
+                    new PokemonMove { Name = "Air Slash" },
+                    new PokemonMove { Name = "X Scissor" },
+                    new PokemonMove { Name = "Bug Buzz" },
+                    new PokemonMove { Name = "Dragon Pulse" },
+                    new PokemonMove { Name = "Dragon Rush" },
+                    new PokemonMove { Name = "Power Gem" },
+                    new PokemonMove { Name = "Drain Punch" },
+                    new PokemonMove { Name = "Vacuum Wave" },
+                    new PokemonMove { Name = "Focus Blast" },
+                    new PokemonMove { Name = "Energy Ball" },
+                    new PokemonMove { Name = "Brave Bird" },
+                    new PokemonMove { Name = "Earth Power" },
+                    new PokemonMove { Name = "Switcheroo" },
+                    new PokemonMove { Name = "Giga Impact" },
+                    new PokemonMove { Name = "Nasty Plot" },
+                    new PokemonMove { Name = "Bullet Punch" },
+                    new PokemonMove { Name = "Avalanche" },
+                    new PokemonMove { Name = "Ice Shard" },
+                    new PokemonMove { Name = "Shadow Claw" },
+                    new PokemonMove { Name = "Thunder Fang" },
+                    new PokemonMove { Name = "Ice Fang" },
+                    new PokemonMove { Name = "Fire Fang" },
+                    new PokemonMove { Name = "Shadow Sneak" },
+                    new PokemonMove { Name = "Mud Bomb" },
+                    new PokemonMove { Name = "Psycho Cut" },
+                    new PokemonMove { Name = "Zen Headbutt" },
+                    new PokemonMove { Name = "Mirror Shot" },
+                    new PokemonMove { Name = "Flash Cannon" },
+                    new PokemonMove { Name = "Rock Climb" },
+                    new PokemonMove { Name = "Defog" },
+                    new PokemonMove { Name = "Trick Room" },
+                    new PokemonMove { Name = "Draco Meteor" },
+                    new PokemonMove { Name = "Discharge" },
+                    new PokemonMove { Name = "Lava Plume" },
+                    new PokemonMove { Name = "Leaf Storm" },
+                    new PokemonMove { Name = "Power Whip" },
+                    new PokemonMove { Name = "Rock Wrecker" },
+                    new PokemonMove { Name = "Cross Poison" },
+                    new PokemonMove { Name = "Gunk Shot" },
+                    new PokemonMove { Name = "Iron Head" },
+                    new PokemonMove { Name = "Magnet Bomb" },
+                    new PokemonMove { Name = "Stone Edge" },
+                    new PokemonMove { Name = "Captivate" },
+                    new PokemonMove { Name = "Stealth Rock" },
+                    new PokemonMove { Name = "Grass Knot" },
+                    new PokemonMove { Name = "Chatter" },
+                    new PokemonMove { Name = "Judgment" },
+                    new PokemonMove { Name = "Bug Bite" },
+                    new PokemonMove { Name = "Charge Beam" },
+                    new PokemonMove { Name = "Wood Hammer" },
+                    new PokemonMove { Name = "Aqua Jet" },
+                    new PokemonMove { Name = "Attack Order" },
+                    new PokemonMove { Name = "Defend Order" },
+                    new PokemonMove { Name = "Heal Order" },
+                    new PokemonMove { Name = "Head Smash" },
+                    new PokemonMove { Name = "Double Hit" },
+                    new PokemonMove { Name = "Roar Of Time" },
+                    new PokemonMove { Name = "Spacial Rend" },
+                    new PokemonMove { Name = "Lunar Dance" },
+                    new PokemonMove { Name = "Crush Grip" },
+                    new PokemonMove { Name = "Magma Storm" },
+                    new PokemonMove { Name = "Dark Void" },
+                    new PokemonMove { Name = "Seed Flare" },
+                    new PokemonMove { Name = "Ominous Wind" },
+                    new PokemonMove { Name = "Shadow Force" },
+                    new PokemonMove { Name = "Hone Claws" },
+                    new PokemonMove { Name = "Wide Guard" },
+                    new PokemonMove { Name = "Guard Split" },
+                    new PokemonMove { Name = "Power Split" },
+                    new PokemonMove { Name = "Wonder Room" },
+                    new PokemonMove { Name = "Psyshock" },
+                    new PokemonMove { Name = "Venoshock" },
+                    new PokemonMove { Name = "Autotomize" },
+                    new PokemonMove { Name = "Rage Powder" },
+                    new PokemonMove { Name = "Telekinesis" },
+                    new PokemonMove { Name = "Magic Room" },
+                    new PokemonMove { Name = "Smack Down" },
+                    new PokemonMove { Name = "Storm Throw" },
+                    new PokemonMove { Name = "Flame Burst" },
+                    new PokemonMove { Name = "Sludge Wave" },
+                    new PokemonMove { Name = "Quiver Dance" },
+                    new PokemonMove { Name = "Heavy Slam" },
+                    new PokemonMove { Name = "Synchronoise" },
+                    new PokemonMove { Name = "Electro Ball" },
+                    new PokemonMove { Name = "Soak" },
+                    new PokemonMove { Name = "Flame Charge" },
+                    new PokemonMove { Name = "Coil" },
+                    new PokemonMove { Name = "Low Sweep" },
+                    new PokemonMove { Name = "Acid Spray" },
+                    new PokemonMove { Name = "Foul Play" },
+                    new PokemonMove { Name = "Simple Beam" },
+                    new PokemonMove { Name = "Entrainment" },
+                    new PokemonMove { Name = "After You" },
+                    new PokemonMove { Name = "Round" },
+                    new PokemonMove { Name = "Echoed Voice" },
+                    new PokemonMove { Name = "Chip Away" },
+                    new PokemonMove { Name = "Clear Smog" },
+                    new PokemonMove { Name = "Stored Power" },
+                    new PokemonMove { Name = "Quick Guard" },
+                    new PokemonMove { Name = "Ally Switch" },
+                    new PokemonMove { Name = "Scald" },
+                    new PokemonMove { Name = "Shell Smash" },
+                    new PokemonMove { Name = "Heal Pulse" },
+                    new PokemonMove { Name = "Hex" },
+                    new PokemonMove { Name = "Sky Drop" },
+                    new PokemonMove { Name = "Shift Gear" },
+                    new PokemonMove { Name = "Circle Throw" },
+                    new PokemonMove { Name = "Incinerate" },
+                    new PokemonMove { Name = "Quash" },
+                    new PokemonMove { Name = "Acrobatics" },
+                    new PokemonMove { Name = "Reflect Type" },
+                    new PokemonMove { Name = "Retaliate" },
+                    new PokemonMove { Name = "Final Gambit" },
+                    new PokemonMove { Name = "Bestow" },
+                    new PokemonMove { Name = "Inferno" },
+                    new PokemonMove { Name = "Water Pledge" },
+                    new PokemonMove { Name = "Fire Pledge" },
+                    new PokemonMove { Name = "Grass Pledge" },
+                    new PokemonMove { Name = "Volt Switch" },
+                    new PokemonMove { Name = "Struggle Bug" },
+                    new PokemonMove { Name = "Bulldoze" },
+                    new PokemonMove { Name = "Frost Breath" },
+                    new PokemonMove { Name = "Dragon Tail" },
+                    new PokemonMove { Name = "Work Up" },
+                    new PokemonMove { Name = "Electroweb" },
+                    new PokemonMove { Name = "Wild Charge" },
+                    new PokemonMove { Name = "Drill Run" },
+                    new PokemonMove { Name = "Dual Chop" },
+                    new PokemonMove { Name = "Heart Stamp" },
+                    new PokemonMove { Name = "Horn Leech" },
+                    new PokemonMove { Name = "Sacred Sword" },
+                    new PokemonMove { Name = "Razor Shell" },
+                    new PokemonMove { Name = "Heat Crash" },
+                    new PokemonMove { Name = "Leaf Tornado" },
+                    new PokemonMove { Name = "Steamroller" },
+                    new PokemonMove { Name = "Cotton Guard" },
+                    new PokemonMove { Name = "Night Daze" },
+                    new PokemonMove { Name = "Psystrike" },
+                    new PokemonMove { Name = "Tail Slap" },
+                    new PokemonMove { Name = "Hurricane" },
+                    new PokemonMove { Name = "Head Charge" },
+                    new PokemonMove { Name = "Gear Grind" },
+                    new PokemonMove { Name = "Searing Shot" },
+                    new PokemonMove { Name = "Techno Blast" },
+                    new PokemonMove { Name = "Relic Song" },
+                    new PokemonMove { Name = "Secret Sword" },
+                    new PokemonMove { Name = "Glaciate" },
+                    new PokemonMove { Name = "Bolt Strike" },
+                    new PokemonMove { Name = "Blue Flare" },
+                    new PokemonMove { Name = "Fiery Dance" },
+                    new PokemonMove { Name = "Freeze Shock" },
+                    new PokemonMove { Name = "Ice Burn" },
+                    new PokemonMove { Name = "Snarl" },
+                    new PokemonMove { Name = "Icicle Crash" },
+                    new PokemonMove { Name = "V Create" },
+                    new PokemonMove { Name = "Fusion Flare" },
+                    new PokemonMove { Name = "Fusion Bolt" },
+                    new PokemonMove { Name = "Flying Press" },
+                    new PokemonMove { Name = "Mat Block" },
+                    new PokemonMove { Name = "Belch" },
+                    new PokemonMove { Name = "Rototiller" },
+                    new PokemonMove { Name = "Sticky Web" },
+                    new PokemonMove { Name = "Fell Stinger" },
+                    new PokemonMove { Name = "Phantom Force" },
+                    new PokemonMove { Name = "Trick Or Treat" },
+                    new PokemonMove { Name = "Noble Roar" },
+                    new PokemonMove { Name = "Ion Deluge" },
+                    new PokemonMove { Name = "Parabolic Charge" },
+                    new PokemonMove { Name = "Forests Curse" },
+                    new PokemonMove { Name = "Petal Blizzard" },
+                    new PokemonMove { Name = "Freeze Dry" },
+                    new PokemonMove { Name = "Disarming Voice" },
+                    new PokemonMove { Name = "Parting Shot" },
+                    new PokemonMove { Name = "Topsy Turvy" },
+                    new PokemonMove { Name = "Draining Kiss" },
+                    new PokemonMove { Name = "Crafty Shield" },
+                    new PokemonMove { Name = "Flower Shield" },
+                    new PokemonMove { Name = "Grassy Terrain" },
+                    new PokemonMove { Name = "Misty Terrain" },
+                    new PokemonMove { Name = "Electrify" },
+                    new PokemonMove { Name = "Play Rough" },
+                    new PokemonMove { Name = "Fairy Wind" },
+                    new PokemonMove { Name = "Moonblast" },
+                    new PokemonMove { Name = "Boomburst" },
+                    new PokemonMove { Name = "Fairy Lock" },
+                    new PokemonMove { Name = "Kings Shield" },
+                    new PokemonMove { Name = "Play Nice" },
+                    new PokemonMove { Name = "Confide" },
+                    new PokemonMove { Name = "Diamond Storm" },
+                    new PokemonMove { Name = "Steam Eruption" },
+                    new PokemonMove { Name = "Hyperspace Hole" },
+                    new PokemonMove { Name = "Water Shuriken" },
+                    new PokemonMove { Name = "Mystical Fire" },
+                    new PokemonMove { Name = "Spiky Shield" },
+                    new PokemonMove { Name = "Aromatic Mist" },
+                    new PokemonMove { Name = "Eerie Impulse" },
+                    new PokemonMove { Name = "Venom Drench" },
+                    new PokemonMove { Name = "Powder" },
+                    new PokemonMove { Name = "Geomancy" },
+                    new PokemonMove { Name = "Magnetic Flux" },
+                    new PokemonMove { Name = "Happy Hour" },
+                    new PokemonMove { Name = "Electric Terrain" },
+                    new PokemonMove { Name = "Dazzling Gleam" },
+                    new PokemonMove { Name = "Celebrate" },
+                    new PokemonMove { Name = "Hold Hands" },
+                    new PokemonMove { Name = "Baby Doll Eyes" },
+                    new PokemonMove { Name = "Nuzzle" },
+                    new PokemonMove { Name = "Hold Back" },
+                    new PokemonMove { Name = "Infestation" },
+                    new PokemonMove { Name = "Power Up Punch" },
+                    new PokemonMove { Name = "Oblivion Wing" },
+                    new PokemonMove { Name = "Thousand Arrows" },
+                    new PokemonMove { Name = "Thousand Waves" },
+                    new PokemonMove { Name = "Lands Wrath" },
+                    new PokemonMove { Name = "Light Of Ruin" },
+                    new PokemonMove { Name = "Origin Pulse" },
+                    new PokemonMove { Name = "Precipice Blades" },
+                    new PokemonMove { Name = "Dragon Ascent" },
+                    new PokemonMove { Name = "Hyperspace Fury" },
+                    new PokemonMove { Name = "Breakneck Blitz  Physical" },
+                    new PokemonMove { Name = "Breakneck Blitz  Special" },
+                    new PokemonMove { Name = "All Out Pummeling  Physical" },
+                    new PokemonMove { Name = "All Out Pummeling  Special" },
+                    new PokemonMove { Name = "Supersonic Skystrike  Physical" },
+                    new PokemonMove { Name = "Supersonic Skystrike  Special" },
+                    new PokemonMove { Name = "Acid Downpour  Physical" },
+                    new PokemonMove { Name = "Acid Downpour  Special" },
+                    new PokemonMove { Name = "Tectonic Rage  Physical" },
+                    new PokemonMove { Name = "Tectonic Rage  Special" },
+                    new PokemonMove { Name = "Continental Crush  Physical" },
+                    new PokemonMove { Name = "Continental Crush  Special" },
+                    new PokemonMove { Name = "Savage Spin Out  Physical" },
+                    new PokemonMove { Name = "Savage Spin Out  Special" },
+                    new PokemonMove { Name = "Never Ending Nightmare  Physical" },
+                    new PokemonMove { Name = "Never Ending Nightmare  Special" },
+                    new PokemonMove { Name = "Corkscrew Crash  Physical" },
+                    new PokemonMove { Name = "Corkscrew Crash  Special" },
+                    new PokemonMove { Name = "Inferno Overdrive  Physical" },
+                    new PokemonMove { Name = "Inferno Overdrive  Special" },
+                    new PokemonMove { Name = "Hydro Vortex  Physical" },
+                    new PokemonMove { Name = "Hydro Vortex  Special" },
+                    new PokemonMove { Name = "Bloom Doom  Physical" },
+                    new PokemonMove { Name = "Bloom Doom  Special" },
+                    new PokemonMove { Name = "Gigavolt Havoc  Physical" },
+                    new PokemonMove { Name = "Gigavolt Havoc  Special" },
+                    new PokemonMove { Name = "Shattered Psyche  Physical" },
+                    new PokemonMove { Name = "Shattered Psyche  Special" },
+                    new PokemonMove { Name = "Subzero Slammer  Physical" },
+                    new PokemonMove { Name = "Subzero Slammer  Special" },
+                    new PokemonMove { Name = "Devastating Drake  Physical" },
+                    new PokemonMove { Name = "Devastating Drake  Special" },
+                    new PokemonMove { Name = "Black Hole Eclipse  Physical" },
+                    new PokemonMove { Name = "Black Hole Eclipse  Special" },
+                    new PokemonMove { Name = "Twinkle Tackle  Physical" },
+                    new PokemonMove { Name = "Twinkle Tackle  Special" },
+                    new PokemonMove { Name = "Catastropika" },
+                    new PokemonMove { Name = "Shore Up" },
+                    new PokemonMove { Name = "First Impression" },
+                    new PokemonMove { Name = "Baneful Bunker" },
+                    new PokemonMove { Name = "Spirit Shackle" },
+                    new PokemonMove { Name = "Darkest Lariat" },
+                    new PokemonMove { Name = "Sparkling Aria" },
+                    new PokemonMove { Name = "Ice Hammer" },
+                    new PokemonMove { Name = "Floral Healing" },
+                    new PokemonMove { Name = "High Horsepower" },
+                    new PokemonMove { Name = "Strength Sap" },
+                    new PokemonMove { Name = "Solar Blade" },
+                    new PokemonMove { Name = "Leafage" },
+                    new PokemonMove { Name = "Spotlight" },
+                    new PokemonMove { Name = "Toxic Thread" },
+                    new PokemonMove { Name = "Laser Focus" },
+                    new PokemonMove { Name = "Gear Up" },
+                    new PokemonMove { Name = "Throat Chop" },
+                    new PokemonMove { Name = "Pollen Puff" },
+                    new PokemonMove { Name = "Anchor Shot" },
+                    new PokemonMove { Name = "Psychic Terrain" },
+                    new PokemonMove { Name = "Lunge" },
+                    new PokemonMove { Name = "Fire Lash" },
+                    new PokemonMove { Name = "Power Trip" },
+                    new PokemonMove { Name = "Burn Up" },
+                    new PokemonMove { Name = "Speed Swap" },
+                    new PokemonMove { Name = "Smart Strike" },
+                    new PokemonMove { Name = "Purify" },
+                    new PokemonMove { Name = "Revelation Dance" },
+                    new PokemonMove { Name = "Core Enforcer" },
+                    new PokemonMove { Name = "Trop Kick" },
+                    new PokemonMove { Name = "Instruct" },
+                    new PokemonMove { Name = "Beak Blast" },
+                    new PokemonMove { Name = "Clanging Scales" },
+                    new PokemonMove { Name = "Dragon Hammer" },
+                    new PokemonMove { Name = "Brutal Swing" },
+                    new PokemonMove { Name = "Aurora Veil" },
+                    new PokemonMove { Name = "Sinister Arrow Raid" },
+                    new PokemonMove { Name = "Malicious Moonsault" },
+                    new PokemonMove { Name = "Oceanic Operetta" },
+                    new PokemonMove { Name = "Guardian Of Alola" },
+                    new PokemonMove { Name = "Soul Stealing 7 Star Strike" },
+                    new PokemonMove { Name = "Stoked Sparksurfer" },
+                    new PokemonMove { Name = "Pulverizing Pancake" },
+                    new PokemonMove { Name = "Extreme Evoboost" },
+                    new PokemonMove { Name = "Genesis Supernova" },
+                    new PokemonMove { Name = "Shell Trap" },
+                    new PokemonMove { Name = "Fleur Cannon" },
+                    new PokemonMove { Name = "Psychic Fangs" },
+                    new PokemonMove { Name = "Stomping Tantrum" },
+                    new PokemonMove { Name = "Shadow Bone" },
+                    new PokemonMove { Name = "Accelerock" },
+                    new PokemonMove { Name = "Liquidation" },
+                    new PokemonMove { Name = "Prismatic Laser" },
+                    new PokemonMove { Name = "Spectral Thief" },
+                    new PokemonMove { Name = "Sunsteel Strike" },
+                    new PokemonMove { Name = "Moongeist Beam" },
+                    new PokemonMove { Name = "Tearful Look" },
+                    new PokemonMove { Name = "Zing Zap" },
+                    new PokemonMove { Name = "Natures Madness" },
+                    new PokemonMove { Name = "Multi Attack" },
+                    new PokemonMove { Name = "10 000 000 Volt Thunderbolt" },
+                    new PokemonMove { Name = "Mind Blown" },
+                    new PokemonMove { Name = "Plasma Fists" },
+                    new PokemonMove { Name = "Photon Geyser" },
+                    new PokemonMove { Name = "Light That Burns The Sky" },
+                    new PokemonMove { Name = "Searing Sunraze Smash" },
+                    new PokemonMove { Name = "Menacing Moonraze Maelstrom" },
+                    new PokemonMove { Name = "Lets Snuggle Forever" },
+                    new PokemonMove { Name = "Splintered Stormshards" },
+                    new PokemonMove { Name = "Clangorous Soulblaze" },
+                    new PokemonMove { Name = "Shadow Rush" },
+                    new PokemonMove { Name = "Shadow Blast" },
+                    new PokemonMove { Name = "Shadow Blitz" },
+                    new PokemonMove { Name = "Shadow Bolt" },
+                    new PokemonMove { Name = "Shadow Break" },
+                    new PokemonMove { Name = "Shadow Chill" },
+                    new PokemonMove { Name = "Shadow End" },
+                    new PokemonMove { Name = "Shadow Fire" },
+                    new PokemonMove { Name = "Shadow Rave" },
+                    new PokemonMove { Name = "Shadow Storm" },
+                    new PokemonMove { Name = "Shadow Wave" },
+                    new PokemonMove { Name = "Shadow Down" },
+                    new PokemonMove { Name = "Shadow Half" },
+                    new PokemonMove { Name = "Shadow Hold" },
+                    new PokemonMove { Name = "Shadow Mist" },
+                    new PokemonMove { Name = "Shadow Panic" },
+                    new PokemonMove { Name = "Shadow Shed" },
+                    new PokemonMove { Name = "Shadow Sky" },
+                    new PokemonMove { Name = "Double Iron Bash" },
+                    new PokemonMove { Name = "Pika Papow" },
+                    new PokemonMove { Name = "Veevee Volley" },
+                    new PokemonMove { Name = "Zippy Zap" },
+                    new PokemonMove { Name = "Splishy Splash" },
+                    new PokemonMove { Name = "Floaty Fall" },
+                    new PokemonMove { Name = "Bouncy Bubble" },
+                    new PokemonMove { Name = "Buzzy Buzz" },
+                    new PokemonMove { Name = "Sizzly Slide" },
+                    new PokemonMove { Name = "Glitzy Glow" },
+                    new PokemonMove { Name = "Baddy Bad" },
+                    new PokemonMove { Name = "Sappy Seed" },
+                    new PokemonMove { Name = "Freezy Frost" },
+                    new PokemonMove { Name = "Sparkly Swirl" });
                     #endregion
                 }
                 context.SaveChanges();
