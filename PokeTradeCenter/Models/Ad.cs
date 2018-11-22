@@ -20,5 +20,6 @@ namespace PokeTradeCenter.Models
         public PokemonMove Move3 { get; set; }
         public PokemonMove Move4 { get; set; }
         public bool Shiny { get; set; }
+        public string CreatedBy { get; set; }
     }
 }

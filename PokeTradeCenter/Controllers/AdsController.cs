@@ -2,9 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using PokeTradeCenter.Areas.Identity.Data;
 using PokeTradeCenter.Models;
 using PokeTradeCenter.ViewModels.Ads;
 
@@ -13,10 +16,12 @@ namespace PokeTradeCenter.Controllers
     public class AdsController : Controller
     {
         private readonly PokeTradeCenterContext _context;
+        private readonly UserManager<PokeTradeCenterUser> _userManager;
 
-        public AdsController(PokeTradeCenterContext context)
+        public AdsController(PokeTradeCenterContext context, UserManager<PokeTradeCenterUser> userManager)
         {
             _context = context;
+            _userManager = userManager;
         }
 
         // GET: Ads
@@ -93,6 +98,7 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads/Create
+        [Authorize]
         public IActionResult Create()
         {
             var viewModel = new AdCreationViewModel()
@@ -108,9 +114,11 @@ namespace PokeTradeCenter.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(AdCreationViewModel adVM)
         {
+            var user = await _userManager.GetUserAsync(HttpContext.User);
             if (ModelState.IsValid)
             {
                 var ad = new Ad()
@@ -129,7 +137,8 @@ namespace PokeTradeCenter.Controllers
                     Pokemon = _context.Pokemon.First(x => x.ID == adVM.PokemonId),
                     ReleaseDate = DateTime.Now,
                     Shiny = adVM.Shiny,
-                    Speed = adVM.Speed
+                    Speed = adVM.Speed,
+                    CreatedBy = user.Id
                 };
                 _context.Add(ad);
                 await _context.SaveChangesAsync();
@@ -139,6 +148,7 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads/Edit/5
+        [Authorize]
         public IActionResult Edit(int? id)
         {
             if (id == null)
@@ -154,6 +164,13 @@ namespace PokeTradeCenter.Controllers
                 .Include(el => el.Move3)
                 .Include(el => el.Move4)
                 .SingleOrDefault(m => m.ID == id);
+
+            var userId = _userManager.GetUserId(HttpContext.User);
+            if (userId != ad.CreatedBy)
+            {
+                return Unauthorized();
+            }
+
 
             if (ad == null)
             {
@@ -186,12 +203,19 @@ namespace PokeTradeCenter.Controllers
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
+        [Authorize]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, AdEditViewModel ad)
         {
             if (id != ad.ID)
             {
                 return NotFound();
+            }
+
+            var userId = _userManager.GetUserId(HttpContext.User);
+            if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
+            {
+                return Unauthorized();
             }
 
             if (ModelState.IsValid)
@@ -235,11 +259,18 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads/Delete/5
+        [Authorize]
         public async Task<IActionResult> Delete(int? id)
         {
             if (id == null)
             {
                 return NotFound();
+            }
+
+            var userId = _userManager.GetUserId(HttpContext.User);
+            if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
+            {
+                return Unauthorized();
             }
 
             var ad = await _context.Ad
@@ -255,8 +286,15 @@ namespace PokeTradeCenter.Controllers
         // POST: Ads/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Authorize]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
+            var userId = _userManager.GetUserId(HttpContext.User);
+            if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
+            {
+                return Unauthorized();
+            }
+
             var ad = await _context.Ad.FindAsync(id);
             _context.Ad.Remove(ad);
             await _context.SaveChangesAsync();

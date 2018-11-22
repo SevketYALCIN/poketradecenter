@@ -1,14 +1,18 @@
 ﻿@model PokeTradeCenter.ViewModels.Ads.AdListingViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<PokeTradeCenter.Areas.Identity.Data.PokeTradeCenterUser> SignInManager
 
 @{
     ViewData["Title"] = "Index";
 }
 
 <h2>Ads</h2>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (SignInManager.IsSignedIn(User))
+{
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+}
 <table class="table">
     <thead>
         <tr>
@@ -48,48 +52,49 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model.Ads) {
-        <tr onclick="window.location.href='@Url.Action("Details", "Ads", new { ID = item.ID })'">
-            <td>
-                @Html.DisplayFor(modelItem => item.Pokemon)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nature)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Level)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Atk)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpeAtk)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Def)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.SpeDef)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Speed)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Hp)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Shiny)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ReleaseDate)
-            </td>
-            @*<td>
-                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
-            </td>*@
-        </tr>
-}
+        @foreach (var item in Model.Ads)
+        {
+            <tr onclick="window.location.href='@Url.Action("Details", "Ads", new { ID = item.ID })'">
+                <td>
+                    @Html.DisplayFor(modelItem => item.Pokemon)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Nature)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Level)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Atk)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeAtk)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Def)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SpeDef)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Speed)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Hp)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Shiny)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReleaseDate)
+                </td>
+                @*<td>
+                        <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                    </td>*@
+            </tr>
+        }
     </tbody>
 </table>
 
