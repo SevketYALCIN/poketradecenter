@@ -168,7 +168,7 @@ namespace PokeTradeCenter.Controllers
             var userId = _userManager.GetUserId(HttpContext.User);
             if (userId != ad.CreatedBy)
             {
-                return Unauthorized();
+                return RedirectToAction(nameof(Index));
             }
 
 
@@ -215,7 +215,7 @@ namespace PokeTradeCenter.Controllers
             var userId = _userManager.GetUserId(HttpContext.User);
             if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
             {
-                return Unauthorized();
+                return RedirectToAction(nameof(Index));
             }
 
             if (ModelState.IsValid)
@@ -270,7 +270,7 @@ namespace PokeTradeCenter.Controllers
             var userId = _userManager.GetUserId(HttpContext.User);
             if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
             {
-                return Unauthorized();
+                return RedirectToAction(nameof(Index));
             }
 
             var ad = await _context.Ad
@@ -292,7 +292,7 @@ namespace PokeTradeCenter.Controllers
             var userId = _userManager.GetUserId(HttpContext.User);
             if (userId != _context.Ad.SingleOrDefault(x => x.ID == id).CreatedBy)
             {
-                return Unauthorized();
+                return RedirectToAction(nameof(Index));
             }
 
             var ad = await _context.Ad.FindAsync(id);
