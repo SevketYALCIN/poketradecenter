@@ -222,6 +222,7 @@ namespace PokeTradeCenter.Controllers
             {
                 try
                 {
+                    var oldEntry = _context.Ad.FirstOrDefault(x => x.ID == id);
                     _context.Update(new Ad()
                     {
                         Atk = ad.Atk,
@@ -238,7 +239,9 @@ namespace PokeTradeCenter.Controllers
                         Pokemon = _context.Pokemon.First(x => x.ID == ad.PokemonId),
                         Shiny = ad.Shiny,
                         Speed = ad.Speed,
-                        ID = ad.ID
+                        ID = ad.ID,
+                        CreatedBy = oldEntry.CreatedBy,
+                        ReleaseDate = oldEntry.ReleaseDate
                     });
                     await _context.SaveChangesAsync();
                 }
