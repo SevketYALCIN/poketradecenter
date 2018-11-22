@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PokeTradeCenter.Models;
+using PokeTradeCenter.ViewModels.Ads;
 
 namespace PokeTradeCenter.Controllers
 {
@@ -45,7 +46,13 @@ namespace PokeTradeCenter.Controllers
         // GET: Ads/Create
         public IActionResult Create()
         {
-            return View();
+            var viewModel = new AdCreationViewModel()
+            {
+                PokemonMoves = _context.PokemonMove.OrderBy(x => x.Name).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList(),
+                PokemonNatures = _context.PokemonNature.OrderBy(x => x.Name).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList(),
+                Pokemons = _context.Pokemon.OrderBy(x => x.OrderNumber).Select(x => new SelectListItem(x.Name, x.ID.ToString())).ToList()
+            };
+            return View(viewModel);
         }
 
         // POST: Ads/Create
@@ -53,15 +60,33 @@ namespace PokeTradeCenter.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("ID,ReleaseDate,Atk,SpeAtk,Def,SpeDef,Speed,Hp,Level,Shiny")] Ad ad)
+        public async Task<IActionResult> Create(AdCreationViewModel adVM)
         {
             if (ModelState.IsValid)
             {
+                var ad = new Ad()
+                {
+                    Atk = adVM.Atk,
+                    Def = adVM.Def,
+                    SpeDef = adVM.SpeDef,
+                    SpeAtk = adVM.SpeAtk,
+                    Hp = adVM.Hp,
+                    Level = adVM.Level,
+                    Move1 = _context.PokemonMove.First(x => x.ID == adVM.Move1),
+                    Move2 = _context.PokemonMove.First(x => x.ID == adVM.Move2),
+                    Move3 = _context.PokemonMove.First(x => x.ID == adVM.Move3),
+                    Move4 = _context.PokemonMove.First(x => x.ID == adVM.Move4),
+                    Nature = _context.PokemonNature.First(x => x.ID == adVM.PokemonNature),
+                    Pokemon = _context.Pokemon.First(x => x.ID == adVM.PokemonId),
+                    ReleaseDate = DateTime.Now,
+                    Shiny = adVM.Shiny,
+                    Speed = adVM.Speed
+                };
                 _context.Add(ad);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(ad);
+            return View(adVM);
         }
 
         // GET: Ads/Edit/5
