@@ -3,13 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using PokeTradeCenter.Areas.Identity.Data;
 using PokeTradeCenter.Models;
 
 namespace PokeTradeCenter.Models
 {
-    public class PokeTradeCenterContext : DbContext
+    public class PokeTradeCenterContext : Microsoft.AspNetCore.Identity.EntityFrameworkCore.IdentityDbContext<PokeTradeCenterUser>
     {
-        public PokeTradeCenterContext (DbContextOptions<PokeTradeCenterContext> options)
+        public PokeTradeCenterContext(DbContextOptions<PokeTradeCenterContext> options)
             : base(options)
         {
         }
