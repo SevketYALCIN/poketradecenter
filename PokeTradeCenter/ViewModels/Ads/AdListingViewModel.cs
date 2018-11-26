@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc.Rendering;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -9,6 +10,11 @@ namespace PokeTradeCenter.ViewModels.Ads
     public class AdListingViewModel
     {
         public List<AdListItem> Ads { get; set; }
+        public List<SelectListItem> Pokemons { get; set; }
+        public List<SelectListItem> Natures { get; set; }
+
+        public int? pokemonId { get; set; }
+        public int? pokemonNature { get; set; }
     }
 
     public class AdListItem

@@ -25,9 +25,22 @@ namespace PokeTradeCenter.Controllers
         }
 
         // GET: Ads
-        public IActionResult Index()
+        public IActionResult Index(int? pokemonId, string pokemonNature)
         {
-            var ads = _context.Ad.Select(x => new AdListItem()
+            var ads = _context.Ad.AsQueryable();
+            if (!String.IsNullOrEmpty(pokemonNature) && _context.PokemonNature.Any(x => x.Name == pokemonNature))
+            {
+                ads = ads.Where(x => x.Nature.Name == pokemonNature);
+            }
+
+            if (pokemonId != null && _context.Pokemon.Any(x => x.OrderNumber == pokemonId))
+            {
+                ads = ads.Where(x => x.Pokemon.OrderNumber == pokemonId);
+            }
+
+            ads = ads.OrderBy(x => x.ReleaseDate);
+
+            var adsList = ads.Select(x => new AdListItem()
             {
                 Atk = x.Atk,
                 Def = x.Def,
@@ -49,8 +62,19 @@ namespace PokeTradeCenter.Controllers
 
             var adsVM = new AdListingViewModel()
             {
-                Ads = ads
+                Ads = adsList,
+                Pokemons = _context.Pokemon.OrderBy(x => x.OrderNumber).Select(x => new SelectListItem()
+                {
+                    Text = x.Name,
+                    Value = x.OrderNumber.ToString()
+                }).ToList(),
+                Natures = _context.PokemonNature.OrderBy(x => x.Name).Select(x => new SelectListItem()
+                {
+                    Text = x.Name,
+                    Value = x.Name
+                }).ToList()
             };
+
             return View(adsVM);
         }
 

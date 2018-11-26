@@ -13,6 +13,19 @@
         <a asp-action="Create">Create New</a>
     </p>
 }
+<div class="filter-row">
+    <label>Filters</label>
+    <form asp-action="Index" asp-controller="Ads" method="get">
+        <select asp-for="pokemonId" asp-items="Model.Pokemons">
+            <option value="">All</option>
+        </select>
+        <select asp-for="pokemonNature" asp-items="Model.Natures">
+            <option value="">All</option>
+        </select>
+        <input type="submit" value="Filter" />
+    </form>
+</div>
+
 <table class="table">
     <thead>
         <tr>
