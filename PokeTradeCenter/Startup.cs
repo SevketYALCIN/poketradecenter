@@ -14,6 +14,7 @@ using PokeTradeCenter.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using PokeTradeCenter.Areas.Identity.Data;
+using PokeTradeCenter.Services;
 
 namespace PokeTradeCenter
 {

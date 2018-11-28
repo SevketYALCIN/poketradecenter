@@ -1,6 +1,7 @@
 ﻿@model PokeTradeCenter.ViewModels.Ads.AdListingViewModel
 @using Microsoft.AspNetCore.Identity
 @inject SignInManager<PokeTradeCenter.Areas.Identity.Data.PokeTradeCenterUser> SignInManager
+@inject UserManager<PokeTradeCenter.Areas.Identity.Data.PokeTradeCenterUser> UserManager
 
 @{
     ViewData["Title"] = "Index";
@@ -9,9 +10,19 @@
 <h2>Ads</h2>
 @if (SignInManager.IsSignedIn(User))
 {
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
+    if ((await UserManager.GetUserAsync(User)).EmailConfirmed)
+    {
+        <p>
+            <a asp-action="Create">Create New</a>
+        </p>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            Please confirm your email to be able to create ads.
+        </div>
+    }
 }
 <div class="filter-row">
     <label>Filters</label>
