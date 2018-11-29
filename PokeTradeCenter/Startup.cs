@@ -15,6 +15,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using PokeTradeCenter.Areas.Identity.Data;
 using PokeTradeCenter.Services;
+using PokeTradeCenter.Filters;
 
 namespace PokeTradeCenter
 {
@@ -44,6 +45,8 @@ namespace PokeTradeCenter
             .AddEntityFrameworkStores<PokeTradeCenterContext>()
             .AddDefaultTokenProviders();
 
+            services.AddScoped<EmailConfirmedAttribute>();
+
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1)
                 .AddRazorPagesOptions(options =>
                 {
@@ -51,6 +54,7 @@ namespace PokeTradeCenter
                     options.Conventions.AuthorizeAreaFolder("Identity", "/Account/Manage");
                     options.Conventions.AuthorizeAreaPage("Identity", "/Account/Logout");
                 });
+
 
             services.ConfigureApplicationCookie(options =>
             {

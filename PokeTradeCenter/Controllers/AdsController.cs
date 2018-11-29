@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using PokeTradeCenter.Areas.Identity.Data;
+using PokeTradeCenter.Filters;
 using PokeTradeCenter.Models;
 using PokeTradeCenter.ViewModels.Ads;
 
@@ -123,6 +124,7 @@ namespace PokeTradeCenter.Controllers
 
         // GET: Ads/Create
         [Authorize]
+        [ServiceFilter(typeof(EmailConfirmedAttribute))]
         public IActionResult Create()
         {
             var viewModel = new AdCreationViewModel()
@@ -140,6 +142,7 @@ namespace PokeTradeCenter.Controllers
         [HttpPost]
         [Authorize]
         [ValidateAntiForgeryToken]
+        [ServiceFilter(typeof(EmailConfirmedAttribute))]
         public async Task<IActionResult> Create(AdCreationViewModel adVM)
         {
             var user = await _userManager.GetUserAsync(HttpContext.User);
