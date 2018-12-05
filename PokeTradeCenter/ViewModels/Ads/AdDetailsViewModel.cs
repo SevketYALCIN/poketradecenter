@@ -7,5 +7,6 @@ namespace PokeTradeCenter.ViewModels.Ads
 {
     public class AdDetailsViewModel : AdListItem
     {
+        public bool CanEdit { get; set; }
     }
 }

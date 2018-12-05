@@ -101,6 +101,8 @@ namespace PokeTradeCenter.Controllers
                 return NotFound();
             }
 
+            var user = _userManager.GetUserAsync(HttpContext.User).Result;
+
             return View(new AdDetailsViewModel()
             {
                 Atk = ad.Atk,
@@ -118,7 +120,8 @@ namespace PokeTradeCenter.Controllers
                 ReleaseDate = ad.ReleaseDate,
                 Shiny = ad.Shiny,
                 Speed = ad.Speed,
-                ID = ad.ID
+                ID = ad.ID,
+                CanEdit = ad.CreatedBy == user.Id
             });
         }
 
